@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"genel_nihai_globaller",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"genel_nihai_globaller",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

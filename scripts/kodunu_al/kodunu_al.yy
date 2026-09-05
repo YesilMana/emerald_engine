@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kodunu_al",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kodunu_al",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

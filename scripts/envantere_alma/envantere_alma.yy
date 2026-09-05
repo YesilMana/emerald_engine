@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"envantere_alma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"envantere_alma",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,43 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_tahta_ev_ici",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":30,
+    "SerialiseWidth":27,
+    "TileCompressedData":[
+      -608,0,13,37,38,39,40,41,37,38,39,40,41,42,43,44,-14,0,2,52,50,-5,52,1,51,-3,52,2,50,52,-14,0,2,49,50,
+      -10,52,1,51,-14,0,1,49,-9,52,3,49,50,52,-14,0,-11,52,2,50,51,-14,0,1,49,-6,52,6,51,52,52,49,50,52,-14,
+      0,5,49,52,51,47,48,-8,52,-27,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"ts_tahta_ev_ici",
+  "out_columns":7,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Sahil",
+    "path":"folders/Tile Sets/Zemin/Sahil.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tahta_ev_ici",
+    "path":"sprites/spr_tahta_ev_ici/spr_tahta_ev_ici.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":54,
+}

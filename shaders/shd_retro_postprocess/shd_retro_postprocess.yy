@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_retro_postprocess",
+  "name":"shd_retro_postprocess",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Extensions/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

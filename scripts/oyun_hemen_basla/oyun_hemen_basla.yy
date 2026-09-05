@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"oyun_hemen_basla",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"oyun_hemen_basla",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+npc_create("vince_animasyon");

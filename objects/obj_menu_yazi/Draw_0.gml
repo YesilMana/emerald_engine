@@ -1,0 +1,1 @@
+if !global.tam_surum draw_sprite_ext(spr_menu_4, 0, -64, -32, 1, 1, 0, c_white, 1);

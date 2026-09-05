@@ -1,0 +1,1 @@
+npc_create("sati_animasyon");

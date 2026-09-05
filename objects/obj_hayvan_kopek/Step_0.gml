@@ -1,0 +1,1 @@
+hayvan_step();

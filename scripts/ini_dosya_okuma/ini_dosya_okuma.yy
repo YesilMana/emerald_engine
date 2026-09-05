@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ini_dosya_okuma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ini_dosya_okuma",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/_Sekmeler/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

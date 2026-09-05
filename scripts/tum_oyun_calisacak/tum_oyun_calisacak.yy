@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tum_oyun_calisacak",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tum_oyun_calisacak",
+  "parent":{
+    "name":"Step",
+    "path":"folders/Scripts/Globaller/Step.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

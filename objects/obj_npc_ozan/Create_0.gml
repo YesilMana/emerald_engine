@@ -1,0 +1,1 @@
+npc_create("ozan_animasyon");

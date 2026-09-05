@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"global_veri_yamala",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"global_veri_yamala",
+  "parent":{
+    "name":"JSON",
+    "path":"folders/Scripts/Sistemler/JSON.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craft_suresi_hesaplama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craft_suresi_hesaplama",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

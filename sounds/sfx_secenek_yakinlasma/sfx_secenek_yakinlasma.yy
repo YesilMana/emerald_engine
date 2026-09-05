@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_secenek_yakinlasma",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.06530612,
+  "exportDir":"",
+  "name":"sfx_secenek_yakinlasma",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Sounds/GUI.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_secenek_yakinlasma.ogg",
+  "volume":1.0,
+}

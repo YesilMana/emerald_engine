@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"yakinlik",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"yakinlik",
+  "parent":{
+    "name":"Gereksizler",
+    "path":"folders/Scripts/Kullanilacak/Gereksizler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

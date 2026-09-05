@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"makrolar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"makrolar",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/_Sekmeler/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

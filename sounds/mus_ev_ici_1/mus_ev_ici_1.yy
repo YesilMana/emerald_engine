@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_ev_ici_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":56.267754,
+  "exportDir":"",
+  "name":"mus_ev_ici_1",
+  "parent":{
+    "name":"Müzikler",
+    "path":"folders/Sounds/Müzikler.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_ev_ici_1.ogg",
+  "volume":1.0,
+}

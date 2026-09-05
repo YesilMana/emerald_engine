@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"srb_global",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"srb_global",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

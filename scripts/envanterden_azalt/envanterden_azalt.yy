@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"envanterden_azalt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"envanterden_azalt",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

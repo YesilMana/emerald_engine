@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"her_oda_step",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"her_oda_step",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+envanter_ekrani_create();

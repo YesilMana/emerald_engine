@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"her_oda_stepin_baslangici",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"her_oda_stepin_baslangici",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

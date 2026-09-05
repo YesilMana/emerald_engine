@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"stat_dengeleme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"stat_dengeleme",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

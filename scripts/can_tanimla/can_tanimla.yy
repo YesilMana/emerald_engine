@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"can_tanimla",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"can_tanimla",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

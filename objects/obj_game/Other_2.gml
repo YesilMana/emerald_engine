@@ -1,0 +1,1 @@
+global.yukleme_baslangic = get_timer();

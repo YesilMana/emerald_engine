@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bos_slotu_bul",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bos_slotu_bul",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

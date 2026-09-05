@@ -1,0 +1,49 @@
+function oda_olusum_kodlari(){
+	instance_create_depth(0, 0, 0, obj_envanter_bilgi_baloncuk);
+	instance_create_depth(0, 0, 0, obj_mini_envanter_bilgi_baloncuk);
+	instance_create_depth(0, 0, 0, obj_craft_tusu);
+	instance_create_depth(0, 0, 0, obj_ok_sag);
+	instance_create_depth(0, 0, 0, obj_ok_sol);
+	instance_create_depth(0, 0, 0, obj_ok_sag_ates);
+	instance_create_depth(0, 0, 0, obj_ok_sol_ates); 
+	instance_create_depth(0, 0, 0, obj_ok_yukari_craft); 
+	instance_create_depth(0, 0, 0, obj_ok_asagi_craft); 
+	instance_create_depth(0, 0, 0, obj_ok_yukari_stats); 
+	instance_create_depth(0, 0, 0, obj_ok_asagi_stats); 
+	instance_create_depth(0, 0, 0, obj_ok_asagi_hikaye); 
+	instance_create_depth(0, 0, 0, obj_ok_yukari_hikaye); 
+	instance_create_depth(0, 0, 0, obj_secim_degistirme_1);
+	instance_create_depth(0, 0, 0, obj_secim_degistirme_2);
+	instance_create_depth(0, 0, 0, obj_secim_degistirme_3);
+	if global.orijinal_sekmeler {
+		instance_create_depth(0, 0, 0, obj_secim_degistirme_4);
+		instance_create_depth(0, 0, 0, obj_secim_degistirme_5);
+		instance_create_depth(0, 0, 0, obj_secim_degistirme_6);
+		instance_create_depth(0, 0, 0, obj_secim_degistirme_7);
+	}
+	instance_create_depth(0, 0, 0, obj_fonksiyon_tusu_1);
+	instance_create_depth(0, 0, 0, obj_fonksiyon_tusu_2);
+	instance_create_depth(0, 0, 0, obj_fonksiyon_tusu_3);
+	instance_create_depth(0, 0, 0, obj_fonksiyon_tusu_4);
+	instance_create_depth(0, 0, 0, obj_fonksiyon_tusu_5);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_1);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_2);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_3);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_4);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_5);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_6);
+	instance_create_depth(0, 0, 0, obj_sinif_secim_7);
+	instance_create_depth(0, 0, 0, obj_joystick_dokunma);
+	instance_create_depth(0, 0, 0, obj_joystick_temel);
+	instance_create_depth(0, 0, 0, obj_ok_uretim_sag);
+	instance_create_depth(0, 0, 0, obj_ok_uretim_sol);
+	instance_create_depth(0, 0, 0, obj_ok_ses_sag);
+	instance_create_depth(0, 0, 0, obj_ok_ses_sol);
+	instance_create_depth(0, 0, 0, obj_ok_muzik_sag);
+	instance_create_depth(0, 0, 0, obj_ok_muzik_sol);
+	instance_create_depth(0, 0, 0, obj_ok_yukari_sinif);
+	instance_create_depth(0, 0, 0, obj_ok_asagi_sinif);
+	instance_create_depth(0, 0, 0, obj_ates_yakma_tusu);
+	instance_create_depth(0, 0, 0, obj_shader_android);
+	instance_create_depth(0, 0, 0, obj_bildirim_tusu);
+}

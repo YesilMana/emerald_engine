@@ -1,0 +1,1123 @@
+{
+  "gorev_tanimlamalari": {
+   
+  },
+  "stat_baslik": {
+    "stat_1": "Sağlık",
+    "stat_2": "Kalori",
+    "stat_3": "Su",
+    "stat_4": "Sıcaklık",
+    "stat_5": "Yorgunluk"
+  },
+  "stat_bilgi": {
+    "stat_1": [ "Sağlam", "Zayıflamış", "Çökmüş", "Ağrılar İçinde", "Yaşam Mücadelesi Veriyor", "Ölmüş" ],
+    "stat_2": [ "Enerjik", "Dengeli", "Açlık Hissediyor", "Zayıf Düşmüş", "Açlıktan Ölmek Üzere", "Açlıktan Ölüyor" ],
+    "stat_3": [ "Suya Doymuş", "Hafif Susamış", "Susamış", "Dehidrasyon Riski", "Susuzluktan Ölmek Üzere", "Susuzluktan Ölüyor" ],
+    "stat_4": [ "Sıcak", "Ilık", "Serin", "Soğuk", "Hipotermi Riski", "Soğuktan Ölüyor"],
+    "stat_5": [ "Zinde", "Canlı", "Halsiz", "Bitkin", "Baygın", "Yorgunluktan Ölüyor"]
+  },
+  "efekt_bilgiler": {
+    "isimler": {
+      "1": "Zehirlenme",
+      "2": "Dehidrasyon",
+      "3": "Şiddetli Açlık",
+      "4": "Isınıyor",
+      "5": "Ayılma",
+      "6": "Tokluk",
+      "7": "Gıda Zehirlenmesi",
+      "8": "İyileşme 1",
+      "9": "Şiddetli Zehirlenme",
+      "10": "İyileşme 2",
+      "11": "Enerjik",
+      "12": "Tam Doymuş",
+      "13": "Enerji Patlaması",
+      "14": "Gece Görüşü"
+    }
+  },
+  "item_names": {
+    "esya_0": "Avare",
+    "esya_1": "Tencere",
+    "esya_2": "Hurda Metal",
+    "esya_3": "Tahta Parçası",
+    "esya_4": "Çivi",
+    "esya_5": "Bıçak",
+    "esya_6": "Çekiç",
+    "esya_7": "Keskin Kenarlı Metal",
+    "esya_8": "Sert Metal Külçesi",
+    "esya_9": "Metal Kase",
+    "esya_10": "Metal Plaka",
+    "esya_11": "Kırık Mercek",
+    "esya_12": "Doğrama Tahtası",
+    "esya_13": "Kibrit",
+    "esya_14": "Kibrit Kutusu",
+    "esya_15": "Havuç",
+    "esya_16": "Boş Su Şişesi",
+    "esya_17": "Dolu Su Şişesi",
+    "esya_18": "Domates",
+    "esya_19": "Biber",
+    "esya_20": "Soğan",
+    "esya_21": "Yumurta",
+    "esya_22": "Dilimlenmiş Domates",
+    "esya_23": "Dilimlenmiş Biber",
+    "esya_24": "Dilimlenmiş Soğan",
+    "esya_25": "Tahta Kase",
+    "esya_26": "Menemen",
+    "esya_27": "Soğansız Menemen",
+    "esya_28": "Sıvı Yağ",
+    "esya_29": "Motor Yağı",
+    "esya_30": "Salça",
+    "esya_31": "Fasulye",
+    "esya_32": "Çiğ Köpek Eti",
+    "esya_33": "Kuru Fasulye Yemeği",
+    "esya_34": "Süper Mario'nun Orijinal Tarifi",
+    "esya_35": "Çaydanlık",
+    "esya_36": "Yeşil Çay",
+    "esya_37": "Tahta Bardak",
+    "esya_38": "Hazırlanmış Yeşil Çay",
+    "esya_39": "Kahve",
+    "esya_40": "Hazırlanmış Kahve",
+    "esya_41": "Çiğ Uskumru",
+    "esya_42": "Somun Ekmek",
+    "esya_43": "Un",
+    "esya_44": "Marul",
+    "esya_45": "Ekmek Arası Uskumru",
+    "esya_46": "Pişmiş Uskumru",
+    "esya_47": "Yoğurt",
+    "esya_48": "Süt",
+    "esya_49": "Yoğurtlu Mantı",
+    "esya_50": "İnegöl Köfte",
+    "esya_51": "Tahta Sopa",
+    "esya_52": "Çiğ Yengeç Bacağı",
+    "esya_53": "İnce Dal",
+    "esya_54": "Pişmiş Yengeç Bacağı",
+    "esya_55": "Tahta Oyma Sanatı",
+    "esya_56": "Böğürtlen",
+    "esya_57": "Oyuncak Kurbağa",
+    "esya_58": "Kasetçalar (yakgitsin.mp3)",
+    "esya_59": "Kasetçalar (Son Rüya - Senaryo)",
+    "esya_60": "Pişmiş Köpek Eti",
+    "esya_61": "Güvenli Olmayan Su",
+    "esya_62": "Kaynamış Su",
+    "esya_63": "Böğürtlenli Turta",
+    "esya_64": "Kutlama Turtası",
+    "esya_65": "Kurulmuş Ayı Kapanı",
+    "esya_66": "Papatya",
+    "esya_67": "Papatya Çayı",
+    "esya_68": "Kapalı Ayı Kapanı",
+    "esya_69": "Damak Şöleni Dergi Sayfası",
+    "esya_70": "Ağrı Kesici",
+    "esya_71": "Kürek Sacı",
+    "esya_72": "Kürek",
+    "esya_73": "Çikolatalı Gofret",
+    "esya_74": "Çiğ Fare Eti",
+    "esya_75": "Yılan Yastığı",
+    "esya_76": "Pişmiş Yılan Yastığı",
+    "esya_77": "Yılan Yastığı Merhemi",
+    "esya_78": "Karahindiba",
+    "esya_79": "Karahindiba Çayı",
+    "esya_80": "Nacak",
+    "esya_81": "Nacak Metali",
+    "esya_82": "Çürümüş Kutlama Turtası",
+    "esya_83": "Tarçınlı Karamelli Turta",
+    "esya_84": "Limonlu Dondurma",
+    "esya_85": "Lembas Ekmeği",
+    "esya_86": "Altın Elma",
+    "esya_87": "Morarmış Parmak",
+    "esya_88": "Tablet Çikolata",
+    "esya_89": "Karamelli Lolipop",
+    "esya_90": "Nuka Soda",
+    "esya_91": "Altın Bilet",
+    "esya_92": "Taş ve Sopa",
+    "esya_93": "Pirinç",
+    "esya_94": "Çiğ Tavuk",
+    "esya_95": "Pişmiş Tavuk",
+    "esya_96": "Pirinç Pilavı",
+    "esya_97": "Tavuklu Pilav",
+    "esya_98": "Benzin Bidonu",
+    "esya_99": "Su Bidonu",
+    "esya_100": "Yangın Söndürme Tüpü",
+    "esya_101": "Çöp",
+    "esya_102": "Dikiş İpi",
+    "esya_103": "Dikiş İğnesi"
+  },
+  "envanter_bilgilendirme": {
+    "esya_0": "Hey! Buna sahip olmaman gerekiyor!",
+    "esya_1": "İçinde su tutabilen ateşe dayanıklı bir kap",
+    "esya_2": "Yapım ve onarımda kullanılabilir",
+    "esya_3": "Önemsiz bir tahta parçası",
+    "esya_4": "Yapım ve onarımda kullanılabilir",
+    "esya_5": "Tahta saplı keskin bir alet",
+    "esya_6": "Yapım ve onarımda kullanılabilir",
+    "esya_7": "Tahta sap olmadan kullanımı sakıncalıdır",
+    "esya_8": "Sert ve ağır bir metal külçesi",
+    "esya_9": "Sıvıları tutabilen ama sapı olmadığından ateşe konulamayan bir kap",
+    "esya_10": "Düz ve dayanıklı geniş bir metal parçası",
+    "esya_11": "Ateş yakmak için kullanılabilir sağlam bir mercek parçası",
+    "esya_12": "Yiyecekleri doğramak için kullanılabilir",
+    "esya_13": "Ateşi tutuşturmak için kullanılabilir",
+    "esya_14": "Kibritleri tutan bir kutu",
+    "esya_15": "Yenebilir turuncu kök",
+    "esya_16": "İçi boş hafif bir plastik şişe",
+    "esya_17": "Serinletici içme suyu dolu bir şişe",
+    "esya_18": "Sulu ve taze bir domates",
+    "esya_19": "Aromalı bir biber çeşidi",
+    "esya_20": "Köklü ve keskin kokulu bir sebze",
+    "esya_21": "Besleyici bir tavuk yumurtası",
+    "esya_22": "Dilime ayrılmış taze domates",
+    "esya_23": "Dilime ayrılmış taze biber",
+    "esya_24": "Dilime ayrılmış soğan",
+    "esya_25": "Hafif ve sade bir tahta kase",
+    "esya_26": "Soğanlı geleneksel menemen",
+    "esya_27": "Aklın bunun bir menemen olduğunu kabul etmiyor",
+    "esya_28": "Yemeklerde kullanılan hafif bir sıvı yağ",
+    "esya_29": "Makine parçalarını yağlamak için kullanılan koyu yağ",
+    "esya_30": "Yoğun ve kırmızı bir salça",
+    "esya_31": "Kuru ve işlenmiş fasulye taneleri",
+    "esya_32": "Çiğ ve yumuşak bir hayvan eti",
+    "esya_33": "Doyurucu bir kuru fasulye yemeği",
+    "esya_34": "Mario’nun gizemli ve efsanevi tarifi",
+    "esya_35": "Su kaynatmaya yarayan metal çaydanlık",
+    "esya_36": "Taze ve kokulu yeşil çay yaprakları",
+    "esya_37": "Sıvı içmek için kullanılan tahta bardak",
+    "esya_38": "Demlenmiş sıcak yeşil çay",
+    "esya_39": "Kavrulmuş çekirdeklerden elde edilen kahve",
+    "esya_40": "Hazırlanmış sıcak kahve",
+    "esya_41": "Norveç uskumrusu",
+    "esya_42": "Doyurucu bir beyaz ekmek",
+    "esya_43": "İnsanlığın temel besin kaynağı",
+    "esya_44": "Lezzetli bir yeşillik",
+    "esya_45": "Ekmeğin arasına yerleştirilmiş uskumru",
+    "esya_46": "Pişirilmiş taze uskumru",
+    "esya_47": "Doğal probiyotik",
+    "esya_48": "Kalsiyum deposu besleyici bir içecek",
+    "esya_49": "Kıyma dolgulu, yoğurtlu hamur işi",
+    "esya_50": "Eğilin ve Köfte Lordu'nu selamlayın!",
+    "esya_51": "Özenle temizlenmiş kiraz dalı",
+    "esya_52": "Dışı sert olsa da içi yumuşak bir kabuklu eti. Çiğ yemek zehirleyebilir",
+    "esya_53": "Uzun süre yanmasa da seni ısıtmaya yeter",
+    "esya_54": "Sıcak ve yumuşak",
+    "esya_55": "Tahtaları oyarak araçlar yapmayı anlatan bir dergi sayfası",
+    "esya_56": "Biraz ekşi, biraz tatlı çalı meyvesi",
+    "esya_57": "Eskimiş ve içi pamukla doldurulmuş bir oyuncak",
+    "esya_58": "Kulaklığa sahip eski bir kasetçalar",
+    "esya_59": "Kulaklığa sahip eski bir kasetçalar",
+    "esya_60": "Yumuşak ve lezzetli bir hayvan eti",
+    "esya_61": "Seni hastalandırabilecek su",
+    "esya_62": "İçilebilir güvenli su",
+    "esya_63": "Tatlı/ekşi bir tadı olan lezzetli ve doyurucu bir tatlı",
+    "esya_64": "Vince ile huzurlu bir hayata kavuştuğunuzda yiyeceğiniz turta",
+    "esya_65": "Bir ayıyı sabit tutmaya yetecek güçte bir tuzak",
+    "esya_66": "Stres atar, içini ısıtır. Tabi önce çayı yapılmalıdır",
+    "esya_67": "İradenizi yükseltmek için bir bardak papatya çayı gibisi yok",
+    "esya_68": "Kurulması gereken ayı kapanı",
+    "esya_69": "Bu sayfada menemen tarifi yazıyor. Öğrenmek için okumak gerekir",
+    "esya_70": "Ağrıyı azaltır ve canını biraz yükseltir",
+    "esya_71": "Toprağı kazmaya yarar ancak bir sap olmadan işlevsizdir",
+    "esya_72": "Toprağı kazmak için sert bir ucu bulunan alet",
+    "esya_73": "Çikolatalı gofret sevmeyen var mı?",
+    "esya_74": "Ezilmiş bir fare. Hiç yoktan iyidir... mi?",
+    "esya_75": "Kırmızı parlak dokusuyla aşırı zehirli bir bitki. Yemek kısa sürede ölüme götürür",
+    "esya_76": "Zehri azaltılmış olsa da kullanmak risklidir",
+    "esya_77": "Yarayı temizler ve iyileştirir",
+    "esya_78": "Çelimsiz olmasına rağmen yenildiğinde enerji verir",
+    "esya_79": "İçildiğinde ani bir enerji patlaması yaşatır",
+    "esya_80": "Taşıması kolay küçük bir balta.",
+    "esya_81": "Nacağın tahtayı kesmesini sağlayan en önemli metal parça",
+    "esya_82": "Çürümüş ve küflenmiş olsa da Vince'den kalan tek şey bu pasta...",
+    "esya_83": "Tarçınlı mı, karamelli mi sevdiğini bilmediğimden ikisini de koydum",
+    "esya_84": "Kokusu seni maceraya çağırıyor",
+    "esya_85": "Küçük bir ısırık yetişkin bir insanı doyurmaya yeter",
+    "esya_86": "Efsanevi bir meyve. Söylentilere göre yiyenlere olağanüstü güçler verir",
+    "esya_87": "Bunu yemek istemezsin",
+    "esya_88": "Fabrikası buradan çok uzakta olmalı",
+    "esya_89": "İyi gösteri, çok iyi gösteri...",
+    "esya_90": "Radyoaktif görünüyor. İçmek seni süper mutanta dönüştürebilir",
+    "esya_91": "Bu bilet savaştan önce çok değerli olabilirdir, ama şimdi sadece bir hatıra",
+    "esya_92": "İnsanlığın ilk aletlerinden",
+    "esya_93": "Beyaz ve lezzetli bir karbonhidrat kaynağı",
+    "esya_94": "Çiğ yemek zehirlenmelere yol açabilir",
+    "esya_95": "Asgari ücretle geçinmeye çalışan bir gencin yegane protein kaynağı",
+    "esya_96": "Lezzetli bir karbonhidrat bombası",
+    "esya_97": "Bir yemeğin gelebileceği son nokta",
+    "esya_98": "Benzin depolama ve taşımaya yarar",
+    "esya_99": "Su depolamaya ve taşımaya yarar",
+    "esya_100": "Gerektiğinde yakın dövüşte kullanılabilir",
+    "esya_101": "Sadece bir çöp",
+    "esya_102": "Dikiş dikmekte kullanılan sağlam bir ip",
+    "esya_103": "Dikiş dikerken eline batırmamaya çalış"
+  },
+  "envanter_kullanim_yazilar": {
+    "esya_15": "Havuç işte yiyecen mi",
+    "esya_26": "Bu da bir yiyecek",
+    "esya_48": "Bunu yapmayı aklından bile geçirme",
+    "esya_101": "Gereksiz bir parça"
+  },
+  "esya_oznitelikler": {
+    "yuzdeye_gore_degisen_basliklar": {
+      "yiyecekler": [ "Çürümüş", "Bozulmuş", "Bayatlamış", "Beklemiş", "Taze" ],
+      "esyalar": [ "Kırılmış", "Hasarlı", "Eskimiş", "İyi Durumda", "Sağlam", "Yeni" ]
+    },
+    "esya_siniflari": {
+      "esyalar": {
+        "esya_1": 1,
+        "esya_5": 1,
+        "esya_6": 1,
+        "esya_12": 1,
+        "esya_35": 1,
+        "esya_51": 1,
+        "esya_72": 1,
+        "esya_80": 1,
+        "esya_92": 1
+      },
+      "silahlar": {
+        "esya_51": {
+          "hasar_1": 6,
+          "hasar_2": 10,
+          "enerji_dusus": 5,
+          "tip": "kesici",
+          "sprite": "kilic",
+          "dayanliklilik_dusus": 0.1,
+          "delay": 30
+        },
+        "esya_72": {
+          "hasar_1": 12,
+          "hasar_2": 24,
+          "enerji_dusus": 5,
+          "tip": "kesici",
+          "sprite": "kilic",
+          "dayanliklilik_dusus": 0.01,
+          "delay": 30
+        },
+        "esya_80": {
+          "hasar_1": 16,
+          "hasar_2": 28,
+          "enerji_dusus": 15,
+          "tip": "kesici",
+          "sprite": "kilic",
+          "dayanliklilik_dusus": 0.2,
+          "delay": 45
+        },
+        "esya_92": {
+          "hasar_1": 12,
+          "hasar_2": 18,
+          "enerji_dusus": 18,
+          "tip": "kesici",
+          "sprite": "kilic",
+          "dayanliklilik_dusus": 0.01,
+          "delay": 45
+        },
+        "esya_100": {
+          "hasar_1": 12,
+          "hasar_2": 18,
+          "enerji_dusus": 5,
+          "tip": "kesici",
+          "sprite": "kilic",
+          "dayanliklilik_dusus": 0.001,
+          "delay": 30
+        }
+      },
+
+      "yanacaklar": {
+        "esya_3": {
+          "sure": 30
+        },
+        "esya_53": {
+          "sure": 20
+        },
+        "son_oge": 2
+      },
+      "yakacaklar": {
+        "esya_11": {
+          "ihtimal": 30
+        },
+        "esya_13": {
+          "ihtimal": 75
+        },
+        "son_oge": 2
+      },
+      "atilamazlar": {
+        "esya_57": 1,
+        "esya_64": 1,
+        "esya_65": 1,
+        "esya_80": 1,
+        "esya_82": 1,
+        "esya_100": 1
+      }
+    },
+    "stacklenebilir": {}
+  },
+  "yurume_map": {
+    "1": [
+      [940, 320],
+      [555, 372],
+      [544, 448],
+      [743, 580],
+      [858, 446]
+    ],
+    "2": [
+      [1382, 1297]
+    ],
+    "3": [
+      [2439, 1627]
+    ],
+    "4": [
+      [2469, 1627]
+    ],
+    "5": [
+      [2499, 1627]
+    ],
+    "6": [
+      [2513, 1622]
+    ],
+    "7": [
+      [2541, 1627]
+    ],
+    "8": [
+      [2600, 1627]
+    ],
+    "9": [
+      [2600, 1657]
+    ],
+    "10": [
+      [2600, 1687]
+    ],
+    "11": [
+      [2600, 1717]
+    ],
+    "12": [
+      [737, 1067],
+      [0, 0, 120],
+      [1937, 1067],
+      [0, 0, 120]
+    ],
+    "13": [
+      [856, 733],
+      [0, 0, 120],
+      [2056, 733],
+      [0, 0, 120]
+    ],
+    "14": [
+      [959, 605],
+      [0, 0, 120],
+      [959, 744],
+      [0, 0, 120]
+    ],
+    "15": [
+      [738, 1628],
+      [0, 0, 120],
+      [1938, 1628],
+      [0, 0, 120]
+    ],
+    "16": [
+      [555, 1500],
+      [0, 0, 120],
+      [555, 1750],
+      [0, 0, 120]
+    ],
+    "17": [
+      [1291, 455],
+      [0, 0, 120],
+      [1470, 455],
+      [0, 0, 120]
+    ],
+    "18": [
+      [1605, 285],
+      [0, 0, 120],
+      [1605, 400],
+      [0, 0, 120]
+    ],
+    "19": [
+      [1226, 285],
+      [0, 0, 120],
+      [1226, 400],
+      [0, 0, 120]
+    ],
+    "20": [
+      [2425, 1628]
+    ],
+    "21": [
+      [2405, 1628]
+    ],
+    "22": [
+      [2362, 265],
+      [2400, 286],
+      [2451, 228]
+    ],
+    "23": [
+      [2362, 265],
+      [2400, 286],
+      [2451, 228]
+    ],
+    "24": [
+      [2362, 265],
+      [2400, 286],
+      [2451, 228]
+    ],
+    "25": [
+      [2536, 1622]
+    ],
+    "26": [
+      [387, 308]
+    ],
+    "27": [
+      [345, 308]
+    ],
+    "28": [
+      [372, 319]
+    ],
+    "29": [
+      [964, 309]
+    ],
+    "30": [
+      [512, 301]
+    ],
+    "31": [
+      [512, 315]
+    ],
+    "32": [
+      [441, 299]
+    ],
+    "33": [
+      [435, 309]
+    ],
+    "34": [
+      [429, 319]
+    ],
+    "35": [
+      [436, 1327]
+    ],
+    "36": [
+      [1590, 347]
+    ]
+  },
+  "hayvanlar": {
+    "obj_hayvan_kopek": {
+      "temel_bilgiler": {
+        "ad": "Sokak Köpeği"
+      },
+      "saglik_durumu": {
+        "can": 60,
+        "kalkan": 0,
+        "kacma_cani": 20
+      },
+      "hareket": {
+        "hiz_yurume": 1,
+        "hiz_kosma": 1.2,
+        "devriye_yaricapi": 200,
+        "varinca_bekleme_suresi_1": 5,
+        "varinca_bekleme_suresi_2": 10
+      },
+      "saldiri": {
+        "saldirgan": 1,
+        "hasar_1": {
+            "miktar": 3,
+            "tip": "kesici", 
+            "menzil": 20
+        },
+        "maksimum_saldiri": 1
+      },
+      "direncler": { 
+        "kesici": 0.2, 
+        "ezici": 0.6,  
+        "ates": 0.3,       
+        "zehir": 0.8
+      },
+      "yapay_zeka": {
+        "algilama_mesafesi": 200,
+        "takip_mesafesi": 400, 
+        "bekleme_suresi_min": 2,
+        "bekleme_suresi_max": 5
+      },
+      "ganimet": [
+        {"esya": "esya_32", "sans": 100, "miktar": 3}
+      ]
+    },
+    "obj_hayvan_fare": {
+      "temel_bilgiler": {
+        "ad": "Fare"
+      },
+      "saglik_durumu": {
+        "can": 20,
+        "kalkan": 0,
+        "kacma_cani": 95
+      },
+      "hareket": {
+        "hiz_yurume": 1,
+        "hiz_kosma": 2.1,
+        "devriye_yaricapi": 200,
+        "varinca_bekleme_suresi_1": 0.4,
+        "varinca_bekleme_suresi_2": 1
+      },
+      "saldiri": {
+        "saldirgan": 0,
+        "maksimum_saldiri": 0
+      },
+      "direncler": { 
+        "kesici": 0.2, 
+        "ezici": 0.6,  
+        "ates": 0.3,       
+        "zehir": 0.8
+      },
+      "yapay_zeka": {
+        "algilama_mesafesi": 200,
+        "takip_mesafesi": 400, 
+        "bekleme_suresi_min": 2,
+        "bekleme_suresi_max": 5
+      },
+      "ganimet": [
+        {"esya": "esya_74", "sans": 100, "miktar": 1}
+      ]
+    },
+    "obj_hayvan_kucuk_yengec": {
+      "temel_bilgiler": {
+        "ad": "Küçük Kaya Yengeci"
+      },
+      "saglik_durumu": {
+        "can": 15,
+        "kalkan": 25,
+        "kacma_cani": 60
+      },
+      "hareket": {
+        "hiz_yurume": 0.5,
+        "hiz_kosma": 0.8,
+        "devriye_yaricapi": 120,
+        "varinca_bekleme_suresi_1": 1,
+        "varinca_bekleme_suresi_2": 7
+      },
+      "saldiri": {
+        "saldirgan": 1,
+        "hasar_1": {
+            "miktar": 3,
+            "tip": "kesici", 
+            "menzil": 20
+        },
+        "hasar_2": { 
+            "miktar": 6,
+            "tip": "ezici",
+            "menzil": 15
+        },
+        "maksimum_saldiri": 2
+      },
+      "direncler": { 
+        "kesici": 0.2, 
+        "ezici": 0.7,  
+        "ates": 1,       
+        "zehir": 0.0
+      },
+      "yapay_zeka": {
+        "algilama_mesafesi": 150,
+        "takip_mesafesi": 300, 
+        "bekleme_suresi_min": 2,
+        "bekleme_suresi_max": 5
+      },
+      "gorsel": {
+        "hareket_sprite": "spr_obj_hayvan_kucuk_yengec_hareket",
+        "idle_sprite": "spr_obj_hayvan_kucuk_yengec_idle",
+        "saldiri_sprite": "spr_obj_hayvan_kucuk_yengec_saldiri",
+        "olum_sprite": "spr_obj_hayvan_kucuk_yengec_olum"
+      },
+      "ganimet": [
+        {"esya": "esya_52", "sans": 100, "miktar": 2}
+      ]
+    }
+  },
+  "yan_karakterler": [
+    
+  ],
+
+  "takipciler": [
+      "obj_npc_hasta_kadir", 
+      "obj_npc_semih"
+  ],
+  "craft_bilgi": {
+    "esya_0": {
+      "esya_1": 3,
+      "uretim_icin_gereken": 5
+    },
+    "esya_1": {
+      "esya_9": 1,
+      "esya_3": 2,
+      "esya_4": 2,
+      "uretim_adedi": 1,
+      "siniflama": [
+        6
+      ],
+      "craft_zorluk": 4
+    },
+    "esya_4": {
+      "esya_2": 1,
+      "uretim_adedi": 3,
+      "uretim_icin_gereken": 6,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 2,
+      "ates": 1
+    },
+    "esya_5": {
+      "esya_7": 1,
+      "esya_3": 1,
+      "esya_4": 1,
+      "siniflama": [
+        6
+      ],
+      "craft_zorluk": 4
+    },
+    "esya_6": {
+      "esya_8": 1,
+      "esya_3": 1,
+      "siniflama": [
+        6
+      ],
+      "craft_zorluk": 3
+    },
+    "esya_7": {
+      "esya_2": 4,
+      "uretim_icin_gereken": 6,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 7,
+      "ates": 1
+    },
+    "esya_8": {
+      "esya_2": 4,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 5,
+      "ates": 1
+    },
+    "esya_9": {
+      "esya_10": 1,
+      "uretim_icin_gereken": 6,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 5
+    },
+    "esya_10": {
+      "esya_2": 3,
+      "uretim_icin_gereken": 6,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 4,
+      "ates": 1
+    },
+    "esya_12": {
+      "esya_3": 2,
+      "siniflama": [
+        6
+      ],
+      "craft_zorluk": 5
+    },
+    "esya_13": {
+      "esya_14": 1,
+      "siniflama": [
+        5
+      ],
+      "uretim_adedi": 20
+    },
+    "esya_22": {
+      "esya_18": 1,
+      "siniflama": [
+        2
+      ],
+      "uretim_adedi": 2,
+      "uretim_icin_gereken": 5,
+      "craft_zorluk": 2
+    },
+    "esya_23": {
+      "esya_19": 1,
+      "siniflama": [
+        2
+      ],
+      "uretim_adedi": 10,
+      "uretim_icin_gereken": 5,
+      "craft_zorluk": 2
+    },
+    "esya_24": {
+      "esya_20": 1,
+      "siniflama": [
+        2
+      ],
+      "uretim_adedi": 6,
+      "uretim_icin_gereken": 5,
+      "craft_zorluk": 2
+    },
+    "esya_25": {
+      "esya_3": 1,
+      "siniflama": [
+        7
+      ],
+      "craft_zorluk": 2
+    },
+    "esya_26": {
+      "esya_21": 2,
+      "esya_22": 4,
+      "esya_23": 16,
+      "esya_24": 4,
+      "esya_25": 1,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 8,
+      "ates": 1,
+      "uretim_icin_gereken": 1
+    },
+    "esya_27": {
+      "esya_21": 2,
+      "esya_22": 4,
+      "esya_23": 16,
+      "esya_25": 1,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 8,
+      "ates": 1,
+      "uretim_icin_gereken": 1
+    },
+    "esya_33": {
+      "esya_22": 4,
+      "esya_24": 8,
+      "esya_28": 2,
+      "esya_30": 2,
+      "esya_31": 40,
+      "esya_32": 8,
+      "esya_62": 1,
+      "siniflama": [
+        2
+      ],
+      "ates": 1,
+      "uretim_icin_gereken": 1,
+      "craft_zorluk": 8
+    },
+    "esya_34": {
+      "esya_22": 4,
+      "esya_24": 8,
+      "esya_29": 2,
+      "esya_30": 2,
+      "esya_31": 40,
+      "esya_32": 8,
+      "esya_62": 1,
+      "siniflama": [
+        2
+      ],
+      "ates": 1,
+      "uretim_icin_gereken": 1,
+      "craft_zorluk": 8
+    },
+    "esya_35": {
+      "esya_10": 2,
+      "esya_4": 6,
+      "siniflama": [
+        6
+      ],
+      "uretim_icin_gereken": 6,
+      "craft_zorluk": 15
+    },
+    "esya_37": {
+      "esya_3": 1,
+      "siniflama": [
+        7
+      ],
+      "uretim_icin_gereken": 5,
+      "craft_zorluk": 6
+    },
+    "esya_38": {
+      "esya_37": 1,
+      "esya_36": 8,
+      "esya_62": 1,
+      "siniflama": [
+        3
+      ],
+      "ates": 1,
+      "craft_zorluk": 4,
+      "uretim_icin_gereken": 35
+    },
+    "esya_40": {
+      "esya_37": 1,
+      "esya_39": 1,
+      "esya_62": 1,
+      "siniflama": [
+        3
+      ],
+      "ates": 1,
+      "craft_zorluk": 4,
+      "uretim_icin_gereken": 35
+    },
+    "esya_42": {
+      "esya_43": 20,
+      "esya_62": 1,
+      "siniflama": [
+        2
+      ],
+      "ates": 1,
+      "craft_zorluk": 4
+    },
+    "esya_45": {
+      "esya_46": 1,
+      "esya_44": 2,
+      "esya_42": 1,
+      "esya_24": 4,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 5
+    },
+    "esya_46": {
+      "esya_41": 1,
+      "siniflama": [
+        2
+      ],
+      "ates": 1,
+      "craft_zorluk": 3
+    },
+    "esya_49": {
+      "uretim_icin_gereken": 1,
+      "ates": 1,
+      "craft_zorluk": 8,
+      "siniflama": [
+        2
+      ],
+      "esya_43": 15,
+      "esya_62": 2,
+      "esya_32": 1,
+      "esya_47": 1,
+      "esya_30": 1,
+      "esya_28": 2
+    },
+    "esya_50": {
+      "ates": 1,
+      "craft_zorluk": 3,
+      "siniflama": [
+        2
+      ],
+      "esya_32": 1,
+      "uretim_icin_gereken": 5
+    },
+    "esya_51": {
+      "siniflama": [
+        5
+      ],
+      "craft_zorluk": 14,
+      "esya_53": 12
+    } ,
+    "esya_54": {
+      "uretim_icin_gereken": 1,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 3,
+      "esya_52": 1,
+      "ates": 1
+    },
+    "esya_60": {
+      "uretim_icin_gereken": 1,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 5,
+      "ates": 1,
+      "esya_32": 1
+    },
+    "esya_62": {
+      "uretim_icin_gereken": 1,
+      "siniflama": [
+        2
+      ],
+      "craft_zorluk": 3,
+      "ates": 1,
+      "esya_61": 1
+    },
+    "esya_63": {
+      "esya_56": 24,
+      "esya_43": 30,
+      "ates": 1,
+      "craft_zorluk": 5,
+      "siniflama": [
+        2
+      ]
+    },
+    "esya_67": {
+      "esya_66": 2,
+      "esya_37": 1,
+      "esya_62": 1,
+      "craft_zorluk": 2,
+      "siniflama": [
+        3
+      ],
+      "ates": 1,
+      "uretim_icin_gereken": 35
+    },
+    "esya_72": {
+      "esya_51": 1,
+      "esya_71": 1,
+      "craft_zorluk": 2,
+      "siniflama": [
+        5
+      ]
+    },
+    "esya_76": {
+      "esya_75": 1,
+      "ates": 1,
+      "uretim_icin_gereken": 1,
+      "craft_zorluk": 15,
+      "siniflama": [
+        4
+      ]
+    },
+    "esya_77": {
+      "esya_76": 1,
+      "esya_66": 12,
+      "craft_zorluk": 15,
+      "siniflama": [
+        4
+      ]
+    },
+    "esya_79": {
+      "esya_78": 4,
+      "esya_37": 1,
+      "esya_62": 1,
+      "craft_zorluk": 8,
+      "siniflama": [
+        4, 3
+      ],
+      "ates": 1,
+      "uretim_icin_gereken": 35
+    },
+    "esya_80": {
+      "esya_51": 1,
+      "esya_81": 1,
+      "esya_4": 4,
+      "craft_zorluk": 8,
+      "siniflama": [
+        6
+      ]
+    },
+    "esya_95": {
+      "esya_94": 1,
+      "esya_62": 1,
+      "esya_24": 4,
+      "craft_zorluk": 4,
+      "siniflama": [2],
+      "ates": 1,
+      "uretim_icin_gereken": 1
+    },
+    "esya_96": {
+      "esya_93": 1,
+      "esya_28": 1,
+      "esya_62": 1,
+      "craft_zorluk": 4,
+      "siniflama": [2],
+      "ates": 1,
+      "uretim_icin_gereken": 1
+    },
+    "esya_97": {
+      "esya_95": 1,
+      "esya_96": 1,
+      "craft_zorluk": 2,
+      "siniflama": [2]
+    }
+  },
+  "kalori_miktari": {
+    "esya_15": 8,     
+    "esya_18": 10,   
+    "esya_19": 8,     
+    "esya_20": 8,     
+    "esya_21": 15,    
+    "esya_22": 2,     
+    "esya_23": 1.5,   
+    "esya_24": 1.5,   
+    "esya_26": 65,    
+    "esya_27": 55,    
+    "esya_28": 5,     
+    "esya_29": -20,   
+    "esya_30": 5,     
+    "esya_31": 3,    
+    "esya_32": 25,    
+    "esya_33": 75,    
+    "esya_34": -10,   
+    "esya_38": 2,     
+    "esya_40": 5,     
+    "esya_41": 15,   
+    "esya_42": 35,       
+    "esya_44": 5,     
+    "esya_45": 60,    
+    "esya_46": 30,    
+    "esya_47": 20,    
+    "esya_48": 15,    
+    "esya_49": 85,    
+    "esya_50": 45,  
+    "esya_52": 5,    
+    "esya_54": 12,    
+    "esya_56": 3,     
+    "esya_60": 25,
+    "esya_67": 5,
+    "esya_73": 25,
+    "esya_74": 11,
+    "esya_75": -80,
+    "esya_78": 4,
+    "esya_79": 16,
+    "esya_83": 45,
+    "esya_84": 25,
+    "esya_85": 100,
+    "esya_86": 100,
+    "esya_87": -50,
+    "esya_88": 55,
+    "esya_89": 25,
+    "esya_90": 10
+  },
+  "su_miktari": {
+    "esya_17": 25,    
+    "esya_15": 5,     
+    "esya_18": 5,    
+    "esya_26": 10,   
+    "esya_27": 10,    
+    "esya_28": -10,   
+    "esya_29": -40,   
+    "esya_30": -15,   
+    "esya_32": -5,    
+    "esya_33": 15, 
+    "esya_34": -40,  
+    "esya_38": 15,    
+    "esya_40": 15,    
+    "esya_41": -5,    
+    "esya_42": -15,  
+    "esya_44": 8,    
+    "esya_45": -5,    
+    "esya_46": -2,    
+    "esya_47": 12,    
+    "esya_48": 18,   
+    "esya_49": 5,     
+    "esya_50": -5,    
+    "esya_52": -2,      
+    "esya_56": 2,     
+    "esya_60": 2,
+    "esya_62": 25,
+    "esya_67": 25,
+    "esya_73": -12.5,
+    "esya_74": -40,
+    "esya_75": -100,
+    "esya_78": 3,
+    "esya_79": 25,
+    "esya_83": 12,
+    "esya_84": 30,
+    "esya_85": 100,
+    "esya_86": 100,
+    "esya_87": -25,
+    "esya_88": 10,
+    "esya_89": 5,
+    "esya_90": 25
+  },
+  "hava_durumlari": {
+    "normal": 0,
+    "soguk_1": -0.001,
+    "soguk_2": -0.002,
+    "soguk_3": -0.004,
+    "soguk_4": -0.006,
+    "soguk_5": -0.01
+  },
+  "envanter_son_oge": 55
+}

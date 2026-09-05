@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"konusma_sistemi_yukle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"konusma_sistemi_yukle",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "konusmalar",
+  ],
+}

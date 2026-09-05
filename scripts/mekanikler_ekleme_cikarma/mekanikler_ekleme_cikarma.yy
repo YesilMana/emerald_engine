@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mekanikler_ekleme_cikarma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mekanikler_ekleme_cikarma",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craft_ekrani_acma_kapama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craft_ekrani_acma_kapama",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

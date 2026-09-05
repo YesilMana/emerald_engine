@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"takip_birak",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"takip_birak",
+  "parent":{
+    "name":"Gereksizler",
+    "path":"folders/Scripts/Kullanilacak/Gereksizler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

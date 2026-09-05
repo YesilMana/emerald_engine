@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"joystick_globalleri",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joystick_globalleri",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Sistemler/Joystick/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

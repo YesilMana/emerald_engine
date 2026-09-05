@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"saat_ilerleme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saat_ilerleme",
+  "parent":{
+    "name":"Saat",
+    "path":"folders/Scripts/Sistemler/Saat.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

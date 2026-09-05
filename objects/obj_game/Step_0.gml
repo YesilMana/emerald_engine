@@ -1,0 +1,1 @@
+tum_oyun_calisacak();

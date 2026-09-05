@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_tekinsiz_vadi",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":113.15519,
+  "exportDir":"",
+  "name":"mus_tekinsiz_vadi",
+  "parent":{
+    "name":"Müzikler",
+    "path":"folders/Sounds/Müzikler.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_tekinsiz_vadi.ogg",
+  "volume":1.0,
+}

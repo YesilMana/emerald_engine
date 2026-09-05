@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"esya_kullanildi_mi",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"esya_kullanildi_mi",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

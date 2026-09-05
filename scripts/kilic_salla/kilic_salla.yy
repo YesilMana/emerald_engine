@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kilic_salla",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kilic_salla",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Saldırı/Kılıçlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

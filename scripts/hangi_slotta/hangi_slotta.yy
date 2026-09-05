@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hangi_slotta",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hangi_slotta",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

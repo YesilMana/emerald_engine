@@ -1,0 +1,1 @@
+npc_create("krallik_asker_animasyon");

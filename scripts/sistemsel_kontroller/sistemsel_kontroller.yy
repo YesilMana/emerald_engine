@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sistemsel_kontroller",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sistemsel_kontroller",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"havayi_degistir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"havayi_degistir",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Extensions/Shaders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

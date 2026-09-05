@@ -1,0 +1,12 @@
+.DS_Store
+.vs/
+.vscode/
+.idea/
+options/main/inherited/
+options/windows/options_windows.yy
+options/mac/options_mac.yy
+options/android/options_android.yy
+options/ios/options_ios.yy
+*.keystore
+*.jks
+google-services.json

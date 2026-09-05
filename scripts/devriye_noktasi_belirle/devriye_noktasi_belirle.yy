@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"devriye_noktasi_belirle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"devriye_noktasi_belirle",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

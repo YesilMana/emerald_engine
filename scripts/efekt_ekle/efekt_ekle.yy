@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"efekt_ekle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"efekt_ekle",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
