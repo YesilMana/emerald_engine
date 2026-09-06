@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ozel_oda_degistirme_kodlari",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ozel_oda_degistirme_kodlari",
+  "parent":{
+    "name":"Odalar",
+    "path":"folders/Scripts/_Sekmeler/Odalar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "Odalar",
+  ],
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"karakter_ziplat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"karakter_ziplat",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"yapim_malzeme_sesleri",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"yapim_malzeme_sesleri",
+  "parent":{
+    "name":"Ses",
+    "path":"folders/Scripts/Sistemler/Ses.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

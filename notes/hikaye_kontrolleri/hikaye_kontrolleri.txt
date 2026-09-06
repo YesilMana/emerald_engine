@@ -1,0 +1,2 @@
+20 = Yağmur için true
+38 = Mağara karanlığı için 1, el feneri için 2

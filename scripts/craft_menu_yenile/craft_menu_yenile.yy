@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craft_menu_yenile",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craft_menu_yenile",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

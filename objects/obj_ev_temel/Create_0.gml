@@ -1,0 +1,2 @@
+derinlik(id);
+

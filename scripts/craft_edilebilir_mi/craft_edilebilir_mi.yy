@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craft_edilebilir_mi",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craft_edilebilir_mi",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

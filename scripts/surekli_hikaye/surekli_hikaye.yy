@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"surekli_hikaye",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"surekli_hikaye",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "konusmalar",
+  ],
+}

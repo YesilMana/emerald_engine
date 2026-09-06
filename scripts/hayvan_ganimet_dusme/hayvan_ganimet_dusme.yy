@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hayvan_ganimet_dusme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hayvan_ganimet_dusme",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

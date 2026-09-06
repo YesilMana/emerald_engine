@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"efekt_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"efekt_draw",
+  "parent":{
+    "name":"Efekt",
+    "path":"folders/Scripts/Sistemler/Efekt.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

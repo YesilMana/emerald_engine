@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"global_tanimlamalari",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"global_tanimlamalari",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

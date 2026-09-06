@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hayvan_ic_ice_gecme_engelleme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hayvan_ic_ice_gecme_engelleme",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

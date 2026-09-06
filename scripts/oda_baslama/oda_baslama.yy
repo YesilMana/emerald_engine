@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"oda_baslama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"oda_baslama",
+  "parent":{
+    "name":"Odalar",
+    "path":"folders/Scripts/_Sekmeler/Odalar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "Odalar",
+  ],
+}

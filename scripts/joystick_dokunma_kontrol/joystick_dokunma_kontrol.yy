@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"joystick_dokunma_kontrol",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joystick_dokunma_kontrol",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Sistemler/Joystick/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

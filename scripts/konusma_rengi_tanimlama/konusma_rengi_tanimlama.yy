@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"konusma_rengi_tanimlama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"konusma_rengi_tanimlama",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_gun_shoot",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":5.953016,
+  "exportDir":"",
+  "name":"mus_gun_shoot",
+  "parent":{
+    "name":"Ses Efektleri",
+    "path":"folders/Sounds/Ses Efektleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_gun_shoot.ogg",
+  "volume":1.0,
+}

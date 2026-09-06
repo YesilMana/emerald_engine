@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"wrap_text",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"wrap_text",
+  "parent":{
+    "name":"Metin",
+    "path":"folders/Scripts/Sistemler/Metin.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

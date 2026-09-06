@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"verileri_senkronize_et",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"verileri_senkronize_et",
+  "parent":{
+    "name":"JSON",
+    "path":"folders/Scripts/Sistemler/JSON.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

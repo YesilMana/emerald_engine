@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kamera_konusana_kilitlenme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kamera_konusana_kilitlenme",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

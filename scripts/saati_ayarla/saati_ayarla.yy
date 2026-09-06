@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"saati_ayarla",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saati_ayarla",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Extensions/Shaders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gorev_kayittan_yukleme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gorev_kayittan_yukleme",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

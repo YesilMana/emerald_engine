@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hayvan_ses_calma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hayvan_ses_calma",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

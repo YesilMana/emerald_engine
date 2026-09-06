@@ -1,0 +1,1 @@
+hayvan_create("obj_hayvan_fare");

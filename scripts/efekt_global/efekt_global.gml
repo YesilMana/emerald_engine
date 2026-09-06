@@ -1,0 +1,3 @@
+function efekt_global(){
+	
+}

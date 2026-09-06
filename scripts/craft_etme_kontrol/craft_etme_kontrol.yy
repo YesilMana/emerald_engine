@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"craft_etme_kontrol",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"craft_etme_kontrol",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

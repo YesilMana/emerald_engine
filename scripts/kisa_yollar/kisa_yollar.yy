@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kisa_yollar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kisa_yollar",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

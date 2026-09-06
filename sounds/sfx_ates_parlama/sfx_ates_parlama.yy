@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_ates_parlama",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2001814,
+  "exportDir":"",
+  "name":"sfx_ates_parlama",
+  "parent":{
+    "name":"Ses Efektleri",
+    "path":"folders/Sounds/Ses Efektleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_ates_parlama.ogg",
+  "volume":1.0,
+}

@@ -1,0 +1,1 @@
+npc_create("kadir_animasyon");

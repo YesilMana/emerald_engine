@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"satir_sayisi",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"satir_sayisi",
+  "parent":{
+    "name":"Metin",
+    "path":"folders/Scripts/Sistemler/Metin.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

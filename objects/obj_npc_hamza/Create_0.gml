@@ -1,0 +1,1 @@
+npc_create("oksalis_maskeli_animasyon");

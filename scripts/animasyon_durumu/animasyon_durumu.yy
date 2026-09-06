@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"animasyon_durumu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"animasyon_durumu",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

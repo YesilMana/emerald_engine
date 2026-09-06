@@ -1,0 +1,1 @@
+kendini_ciz(global.gui_renk);

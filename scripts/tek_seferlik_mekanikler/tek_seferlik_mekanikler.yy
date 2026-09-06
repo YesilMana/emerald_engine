@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tek_seferlik_mekanikler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tek_seferlik_mekanikler",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

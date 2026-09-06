@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_konusma_4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":0.074013606,
+  "exportDir":"",
+  "name":"mus_konusma_4",
+  "parent":{
+    "name":"Konuşma Sesleri",
+    "path":"folders/Sounds/Konuşma Sesleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":22050,
+  "soundFile":"mus_konusma_4.ogg",
+  "volume":1.0,
+}

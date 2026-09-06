@@ -1,0 +1,1 @@
+npc_create("buyuk_lale_animasyon");

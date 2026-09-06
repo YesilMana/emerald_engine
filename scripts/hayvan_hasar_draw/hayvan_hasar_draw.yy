@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hayvan_hasar_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hayvan_hasar_draw",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

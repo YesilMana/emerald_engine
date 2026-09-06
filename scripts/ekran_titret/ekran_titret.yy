@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ekran_titret",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ekran_titret",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

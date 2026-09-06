@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"en_yakin_obje_belirleme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"en_yakin_obje_belirleme",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

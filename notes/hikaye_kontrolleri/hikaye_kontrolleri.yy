@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"hikaye_kontrolleri",
+  "name":"hikaye_kontrolleri",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

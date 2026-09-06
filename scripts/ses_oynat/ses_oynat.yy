@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ses_oynat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ses_oynat",
+  "parent":{
+    "name":"Ses",
+    "path":"folders/Scripts/Sistemler/Ses.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

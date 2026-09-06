@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kirildiysa_yenisini_ver",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kirildiysa_yenisini_ver",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

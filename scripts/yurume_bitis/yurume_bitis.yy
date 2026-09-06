@@ -1,0 +1,16 @@
+{
+  "$GMScript":"v1",
+  "%Name":"yurume_bitis",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"yurume_bitis",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+  "tags":[
+    "konusmalar",
+  ],
+}

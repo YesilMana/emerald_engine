@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"onay_ekrani_goster",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"onay_ekrani_goster",
+  "parent":{
+    "name":"Kullanilacak",
+    "path":"folders/Scripts/Kullanilacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

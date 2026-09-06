@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"envanter_kontrol_surekli",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"envanter_kontrol_surekli",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+image_alpha = global.hikaye_kontrolleri_228;

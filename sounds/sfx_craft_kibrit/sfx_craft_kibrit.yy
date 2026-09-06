@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_craft_kibrit",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":3.3839228,
+  "exportDir":"",
+  "name":"sfx_craft_kibrit",
+  "parent":{
+    "name":"Ses Efektleri",
+    "path":"folders/Sounds/Ses Efektleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_craft_kibrit.ogg",
+  "volume":1.0,
+}

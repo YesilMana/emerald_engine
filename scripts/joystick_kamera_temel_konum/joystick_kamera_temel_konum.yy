@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"joystick_kamera_temel_konum",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"joystick_kamera_temel_konum",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Scripts/Sistemler/Joystick/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

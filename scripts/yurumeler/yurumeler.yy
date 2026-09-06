@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"yurumeler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"yurumeler",
+  "parent":{
+    "name":"Kontroller",
+    "path":"folders/Scripts/_Sekmeler/Kontroller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

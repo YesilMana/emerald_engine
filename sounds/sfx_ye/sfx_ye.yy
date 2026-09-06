@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_ye",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":2.1205442,
+  "exportDir":"",
+  "name":"sfx_ye",
+  "parent":{
+    "name":"Ses Efektleri",
+    "path":"folders/Sounds/Ses Efektleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_ye.ogg",
+  "volume":1.0,
+}

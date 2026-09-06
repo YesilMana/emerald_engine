@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hayvan_event",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hayvan_event",
+  "parent":{
+    "name":"Event",
+    "path":"folders/Scripts/Combat/Hayvanlar/Script/Event.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

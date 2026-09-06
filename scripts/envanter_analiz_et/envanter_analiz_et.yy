@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"envanter_analiz_et",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"envanter_analiz_et",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

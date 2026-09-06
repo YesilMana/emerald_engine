@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"guncelleme_yap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"guncelleme_yap",
+  "parent":{
+    "name":"JSON",
+    "path":"folders/Scripts/Sistemler/JSON.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

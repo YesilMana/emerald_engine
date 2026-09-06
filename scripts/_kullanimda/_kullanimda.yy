@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_kullanimda",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_kullanimda",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/_Sekmeler/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

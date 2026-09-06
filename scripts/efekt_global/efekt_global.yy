@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"efekt_global",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"efekt_global",
+  "parent":{
+    "name":"Efekt",
+    "path":"folders/Scripts/Sistemler/Efekt.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

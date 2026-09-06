@@ -1,0 +1,1 @@
+kendini_ciz(c_white);

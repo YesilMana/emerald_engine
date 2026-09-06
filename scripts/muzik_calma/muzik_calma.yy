@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"muzik_calma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"muzik_calma",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Scripts/_Sekmeler/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

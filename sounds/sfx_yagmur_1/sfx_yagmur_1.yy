@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_yagmur_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":3,
+  "conversionMode":0,
+  "duration":18.0,
+  "exportDir":"",
+  "name":"sfx_yagmur_1",
+  "parent":{
+    "name":"Ses Efektleri",
+    "path":"folders/Sounds/Ses Efektleri.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_yagmur_1.ogg",
+  "volume":1.0,
+}
