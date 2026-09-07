@@ -1234,6 +1234,7 @@
     {"id":{"name":"yagmur_olusum","path":"scripts/yagmur_olusum/yagmur_olusum.yy",},},
     {"id":{"name":"yakinlik","path":"scripts/yakinlik/yakinlik.yy",},},
     {"id":{"name":"yapim_malzeme_sesleri","path":"scripts/yapim_malzeme_sesleri/yapim_malzeme_sesleri.yy",},},
+    {"id":{"name":"yazi","path":"scripts/yazi/yazi.yy",},},
     {"id":{"name":"yenile","path":"scripts/yenile/yenile.yy",},},
     {"id":{"name":"yorgunluk_surekli_azalma","path":"scripts/yorgunluk_surekli_azalma/yorgunluk_surekli_azalma.yy",},},
     {"id":{"name":"yurume_bitis","path":"scripts/yurume_bitis/yurume_bitis.yy",},},
