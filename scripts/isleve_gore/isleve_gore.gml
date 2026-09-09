@@ -21,27 +21,6 @@ function isleve_gore(islev){
 		room_goto(rm_menu);
 	}
 	
-	if islev == 6 {
-		if global.ses_seviyesi < 1 {
-			global.ses_seviyesi += 0.05;
-		}
-		
-		if global.ses_seviyesi >= 1 {
-			global.ses_seviyesi = 0;
-		}
-		ini_kaydet();	
-	}
-	
-	if islev == 7 {
-		if global.muzik_seviyesi < 1 {
-			global.muzik_seviyesi += 0.05;
-		}
-	
-		if global.muzik_seviyesi >= 1 {
-			global.muzik_seviyesi = 0;
-		}
-		ini_kaydet();
-	}	
 	if islev == 9 {
 		//room_goto(rm_menu_5);
 	}	
@@ -279,6 +258,31 @@ function isleve_gore(islev){
 	if islev == 56 {
 		
 	}
+	
+	if islev == 62 {
+		if global.ses_seviyesi < 0.95 {
+			global.ses_seviyesi += 0.05;
+		}
+		ini_kaydet();	
+	}
+	if islev == 63 {
+		if global.ses_seviyesi > 0 {
+			global.ses_seviyesi -= 0.05;
+		}
+		ini_kaydet();	
+	}
+	if islev == 64 {
+		if global.muzik_seviyesi < 0.95 {
+			global.muzik_seviyesi += 0.05;
+		}
+		ini_kaydet();	
+	}
+	if islev == 65 {
+		if global.muzik_seviyesi > 0 {
+			global.muzik_seviyesi -= 0.05;
+		}
+		ini_kaydet();	
+	}
 }
 function isleve_gore_yazi(islev) {
 	
@@ -468,4 +472,16 @@ function isleve_gore_yazi(islev) {
 	if islev == 56 {
 		
 	}	
+	if islev == 62 {
+		draw_text_transformed(x, y_, "+", scale, scale, 0);
+	}	
+	if islev == 63 {
+		draw_text_transformed(x, y_, "-", scale, scale, 0);
+	}	
+	if islev == 64 {
+		draw_text_transformed(x, y_, "+", scale, scale, 0);
+	}	
+	if islev == 65 {
+		draw_text_transformed(x, y_, "-", scale, scale, 0);
+	}
 }
