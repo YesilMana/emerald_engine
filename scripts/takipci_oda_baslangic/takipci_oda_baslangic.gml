@@ -45,7 +45,24 @@ function npc_oda_dogum() {
 				if (!is_undefined(ilk_x) && !is_undefined(ilk_y)) {
 					dogur.kayit_x = ilk_x;
 					dogur.kayit_y = ilk_y;
-				}	
+				}
+		
+				var _yon = npc_mapi[? "npc_yon"];
+		
+				if _yon == "sag" {
+					dogur.sprite_index = dogur.karakter_animasyon.Yan;
+					dogur.image_xscale = 1;
+				}
+				else if _yon == "sol" {
+					dogur.sprite_index = dogur.karakter_animasyon.Yan;
+					dogur.image_xscale = -1;
+				}
+				else if _yon == "on" {
+					dogur.sprite_index = dogur.karakter_animasyon.On;
+				}
+				else if _yon == "arka" {
+					dogur.sprite_index = dogur.karakter_animasyon.Arka;
+				}
 				dogur.npc = true;
 			}	
 		}

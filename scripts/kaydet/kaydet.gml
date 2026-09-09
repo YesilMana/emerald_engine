@@ -64,9 +64,25 @@ function konum_ve_oda_kaydet() {
 	if instance_exists(global.cikolata) {
 		global.karakter_bilgileri[? "konum_x"] = global.cikolata.x;	
 		global.karakter_bilgileri[? "konum_y"] = global.cikolata.y;	
-		global.karakter_bilgileri[? "oda_isim"] = room_get_name(room);	
+		global.karakter_bilgileri[? "oda_isim"] = room_get_name(room);
+		
+		var yon = "sag";
+		if global.cikolata.sprite_index == global.cikolata.karakter_animasyon.Yan && global.cikolata.image_xscale > 0 {
+			yon = "sag";
+		}
+		else if global.cikolata.sprite_index == global.cikolata.karakter_animasyon.Yan && global.cikolata.image_xscale < 0 {
+			yon = "sol";
+		}
+		else if global.cikolata.sprite_index == global.cikolata.karakter_animasyon.Arka {
+			yon = "arka";
+		}
+		else if global.cikolata.sprite_index == global.cikolata.karakter_animasyon.On {
+			yon = "on";
+		}
+		global.karakter_bilgileri[? "yon"] = yon;	
 	}
 }
+
 
 function havayi_kaydet() {
 	global.hikaye_kontrolleri_11 = global.hava_durumu;

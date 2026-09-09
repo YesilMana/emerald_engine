@@ -1049,6 +1049,7 @@
     {"id":{"name":"kamera_konusana_kilitlenme","path":"scripts/kamera_konusana_kilitlenme/kamera_konusana_kilitlenme.yy",},},
     {"id":{"name":"karakter_bilgilendirme_draw","path":"scripts/karakter_bilgilendirme_draw/karakter_bilgilendirme_draw.yy",},},
     {"id":{"name":"karakter_don","path":"scripts/karakter_don/karakter_don.yy",},},
+    {"id":{"name":"karakter_her_oda_baslama","path":"scripts/karakter_her_oda_baslama/karakter_her_oda_baslama.yy",},},
     {"id":{"name":"karakter_yonunu_don","path":"scripts/karakter_yonunu_don/karakter_yonunu_don.yy",},},
     {"id":{"name":"karakter_yurume","path":"scripts/karakter_yurume/karakter_yurume.yy",},},
     {"id":{"name":"karakter_ziplat","path":"scripts/karakter_ziplat/karakter_ziplat.yy",},},

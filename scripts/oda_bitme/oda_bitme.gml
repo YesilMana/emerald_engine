@@ -41,6 +41,22 @@ function npc_konum_kaydetme() {
             ds_map_add(temp_map, "npc_oda", bulunan_oda);
             ds_map_add(temp_map, "npc_konum_x", x);
             ds_map_add(temp_map, "npc_konum_y", y);
+			
+			var yon = "sag";
+			if sprite_index == karakter_animasyon.Yan && image_xscale > 0 {
+				yon = "sag";
+			}
+			else if sprite_index == karakter_animasyon.Yan && image_xscale < 0 {
+				yon = "sol";
+			}
+			else if sprite_index == karakter_animasyon.Arka {
+				yon = "arka";
+			}
+			else if sprite_index == karakter_animasyon.On {
+				yon = "on";
+			}
+			
+			ds_map_add(temp_map, "npc_yon", yon);
             
             if (variable_instance_exists(id, "ilk_x") && variable_instance_exists(id, "ilk_y")) {
                 ds_map_add(temp_map, "ilk_x", ilk_x);
