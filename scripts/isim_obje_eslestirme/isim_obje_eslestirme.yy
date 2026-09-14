@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"isim_obje_eslestirme",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"isim_obje_eslestirme",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

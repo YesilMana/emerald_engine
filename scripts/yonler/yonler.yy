@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"yonler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"yonler",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
