@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ozel_konusma_kodlari",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ozel_konusma_kodlari",
+  "parent":{
+    "name":"Mekanikler",
+    "path":"folders/Scripts/Mekanikler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

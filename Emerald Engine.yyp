@@ -1104,6 +1104,7 @@
     {"id":{"name":"oyun_hemen_basla","path":"scripts/oyun_hemen_basla/oyun_hemen_basla.yy",},},
     {"id":{"name":"oyunu_kapat","path":"scripts/oyunu_kapat/oyunu_kapat.yy",},},
     {"id":{"name":"oyunu_yeniden_baslat","path":"scripts/oyunu_yeniden_baslat/oyunu_yeniden_baslat.yy",},},
+    {"id":{"name":"ozel_konusma_kodlari","path":"scripts/ozel_konusma_kodlari/ozel_konusma_kodlari.yy",},},
     {"id":{"name":"ozel_oda_degistirme_kodlari","path":"scripts/ozel_oda_degistirme_kodlari/ozel_oda_degistirme_kodlari.yy",},},
     {"id":{"name":"saat_cizim","path":"scripts/saat_cizim/saat_cizim.yy",},},
     {"id":{"name":"saat_ilerleme","path":"scripts/saat_ilerleme/saat_ilerleme.yy",},},

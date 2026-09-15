@@ -18,6 +18,7 @@ function srb_global(){
 		kamera_kilitlen(deger);
 		return "";
 	});
+	scribble_add_macro("kod", ozel_konusma_kodlari);
 }
 
 
