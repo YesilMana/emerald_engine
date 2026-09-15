@@ -47,6 +47,7 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
     // --- KONUŞMA DÖNGÜSÜ ---
     if (index >= 1) {
 		konusana_donme();
+		kamera_konusana_kilitlenme();
         global.konusma_basladi = true;
         konusma_sirasinda_olacaklar(konusma_id);
         

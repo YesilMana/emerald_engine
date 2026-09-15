@@ -142,6 +142,7 @@ function bit() {
 	secim_array(-1);
 	konusma_bitimi();
 	konusma_sil();	
+	kamera_kilitlen(true);
 }
 
 function konusma_devam(obje_ismi = noone) {

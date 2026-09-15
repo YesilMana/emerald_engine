@@ -7,6 +7,16 @@ function srb_global(){
 	scribble_add_macro("devam", function() {global.hikaye_kontrolleri_87 = false;});
 	scribble_add_macro("git", function(numara) {
 		karakter_git(numara);	
+		return "";
+	});
+	scribble_add_macro("bit", function() {
+		bit();
+		kamera_sifirla();
+		return "";
+	});
+	scribble_add_macro("kamera_kilit", function(deger) {
+		kamera_kilitlen(deger);
+		return "";
 	});
 }
 
@@ -64,4 +74,10 @@ function srb_konusana_don(donecek, donulecek, birbirine_bakacak = true) {
 	return "";
 }
 
+function kamera_kilitlen(deger) {
+	if deger == 1 global.hikaye_kontrolleri_320 = false;
+	else global.hikaye_kontrolleri_320 = true;
+	
+	return "";
+}
 
