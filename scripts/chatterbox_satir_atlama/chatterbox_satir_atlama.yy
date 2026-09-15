@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"chatterbox_satir_atlama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"chatterbox_satir_atlama",
+  "parent":{
+    "name":"Kullanılmayacak",
+    "path":"folders/Script/Sistem/Kullanılmayacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

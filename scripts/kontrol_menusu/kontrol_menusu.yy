@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"kontrol_menusu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"kontrol_menusu",
+  "parent":{
+    "name":"Struct",
+    "path":"folders/Script/Sistem/Struct.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

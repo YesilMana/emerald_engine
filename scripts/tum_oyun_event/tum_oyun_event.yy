@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tum_oyun_event",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tum_oyun_event",
+  "parent":{
+    "name":"Event",
+    "path":"folders/Script/Event.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

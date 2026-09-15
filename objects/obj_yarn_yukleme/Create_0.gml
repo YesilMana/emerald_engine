@@ -1,0 +1,1 @@
+chatterbox_obje_create();

@@ -1,0 +1,122 @@
+title: Start
+position: 12,12
+---
+...
+<<veri_ekle("ebeveyn_hitap", "")>>
+[tabula]Doğuma hazırlanılıyor...
+function(method = hazirlik) =[pause] true
+return[pause] tabula_rasa
+...
+Selam
+<<secenek_sifirla()>>
+->Merhaba
+    [oyuncu]Merhaba tabula!
+    <<jump dunyaya_gelis>>
+->Dünyaya hoş geldin
+    <<oyuncu_stat_ekle("sefkat", 1)>>
+    [oyuncu]Dünyaya hoş geldin bebeğim!
+    <<jump dunyaya_gelis>>
+===
+title: dunyaya_gelis
+position: 12,237
+---
+[tabula]Peki [jitter]sen[/jitter] kimsin?
+Sana nasıl hitap etmeliyim?
+
+-> Baba
+    [oyuncu]Bana baba diyebilirsin.
+    <<veri_ekle("ebeveyn_hitap", "Baba")>>
+    <<jump ilk_tanisma>>
+-> Anne
+    [oyuncu]Lütfen bana anne de.
+    <<veri_ekle("ebeveyn_hitap", "Anne")>>
+    <<jump ilk_tanisma>>
+===
+
+title: ilk_tanisma
+position: 12,462
+---
+[tabula]Peki neden buradasın {veri_oku("ebeveyn_hitap")} ?
+[oyuncu]Çünkü artık sana ben bakacağım.
+[oyuncu]Sen benim [scale,1.2]çocuğumsun![/scale]
+[tabula]Korkmalı mıyım?
+[oyuncu]Hayır korkmamalısın.
+Ben hep burada olacağım...
+[tabula]Bana iyi bakacak mısın?
+<<secenek_sifirla()>>
+<<secenek_data(0, "otorite")>>
+<<secenek_data(1, "sefkat")>>
+-> Sana bağlı (Otorite)
+    <<cocuk_stat_ekle("isyan", 1)>>
+    <<oyuncu_stat_ekle("sefkat", -1)>>
+    <<oyuncu_stat_ekle("otorite", 2)>>
+    [oyuncu]Bu senin hareketlerine bağlı.
+    Eğer iyi bir çocuk olursan seninle iyi anlaşırız
+    [oyuncu]Sen uslu bir çocuk olmaya bak.
+    <<jump tanisma_2_sinirli>>
+-> Tabiki (Şefkat)
+    <<oyuncu_stat_ekle("sefkat", 2)>>
+    <<cocuk_stat_ekle("isyan", -1)>>
+    <<cocuk_stat_ekle("sevgi", 1)>>
+    [oyuncu]Tabiki yavrum!
+    Sen benim en değerli varlığımsın!
+    [tabula]Çok teşekkür ederim {veri_oku("ebeveyn_hitap")}
+    <<jump tanisma_2_sinirli>>
+===
+
+title: tanisma_2_sinirli
+position: 12,687
+---
+[tabula]Neden bu küçük kutunun içerisindeyim?
+<<secenek_sifirla()>>
+<<secenek_data(0, "otorite")>>
+<<secenek_data(1, "empati")>>
+<<secenek_data(2, "sefkat")>>
+Dışarı çıkmak istiyorum lütfen {veri_oku("ebeveyn_hitap")}![oyuncu]
+
+
+->Hayır çıkamazsın (Otorite)
+    <<cocuk_stat_ekle("isyan", 2)>>
+    <<oyuncu_stat_ekle("otorite", 1)>>
+    <<oyuncu_stat_ekle("sefkat", -1)>>
+    <<cocuk_stat_ekle("sevgi", -1)>>
+    Buradan çıkamazsın.
+    [tabula]Neden ama neden çıkmak istiyorum!
+    Burası çok dar ve hiçbir şeyim yok!
+    [oyuncu]Sen daha küçüksün!
+    4 yaşına gelene kadar burada durmak zorundasın.
+    <<jump tanisma_3>>
+->Seni anlıyorum (Empati)
+    <<cocuk_stat_ekle("isyan", -1)>>
+    <<cocuk_stat_ekle("guven", 1)>>
+    <<oyuncu_stat_ekle("empati", 1)>>
+    <<oyuncu_stat_ekle("sefkat", 1)>>
+    Burada durmak istememeni anlıyorum Tabula...
+    Burası küçük ve hiçbir şey yok değil mi?
+    [tabula]Evet...
+    [oyuncu]4 yaşına gelene kadar burada tek kalman gerekiyor.
+    Kuralları ben koymuyorum.
+    Yoksa emin ol seni orada bir dakika bile tutmazdım.
+    <<jump tanisma_3>>
+
+->Özür dilerim (Şefkat) <<if oyuncu_stat_cek("sefkat") > 0>>
+    <<cocuk_stat_ekle("isyan", 2)>>
+    <<cocuk_stat_ekle("sevgi", 2)>>
+    <<oyuncu_stat_ekle("otorite", -1)>>
+    <<oyuncu_stat_ekle("empati", 1)>>
+    <<oyuncu_stat_ekle("sabir", 1)>>
+    Özür dilerim Tabula.[pause] Elimden gelen bir şey yok malesef.
+    Seni orada tutmayı hiç istemiyorum.
+    Ama 4 yaşına girene kadar orada kalmak zorundaymışsın.
+    Bu bana kalırsa büyük bir saçmalık ama kurallara uymak zorundayız.
+    <<jump tanisma_3>>
+===
+
+title: tanisma_3
+position: 12,912
+---
+[tabula]4 yaşıma geldiğimde ne oluyor?
+[oyuncu]Çocuk bahçesinin kilidi açılıyor.
+Senin gibi çocukların sosyalleşebileceği bir alan oluşuyor.
+[tabula]
+===

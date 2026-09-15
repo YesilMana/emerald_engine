@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shader_tablet_draw_gui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shader_tablet_draw_gui",
+  "parent":{
+    "name":"Kullanılmayacak",
+    "path":"folders/Script/Sistem/Kullanılmayacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

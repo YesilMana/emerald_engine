@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sh_tablet_glow",
+  "name":"sh_tablet_glow",
+  "parent":{
+    "name":"Shader",
+    "path":"folders/Eklentiler/Shader.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

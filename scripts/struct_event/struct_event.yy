@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"struct_event",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"struct_event",
+  "parent":{
+    "name":"Kullanışlılar",
+    "path":"folders/Script/Sistem/Kullanışlılar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

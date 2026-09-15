@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sekmeler",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sekmeler",
+  "parent":{
+    "name":"Kullanışlılar",
+    "path":"folders/Script/Sistem/Kullanışlılar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

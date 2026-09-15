@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ChatterboxFastForward",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChatterboxFastForward",
+  "parent":{
+    "name":"Flow",
+    "path":"folders/Eklentiler/Chatterbox/Flow.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

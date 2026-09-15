@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"secenek_ozel_kod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"secenek_ozel_kod",
+  "parent":{
+    "name":"Kullanışlılar",
+    "path":"folders/Script/Sistem/Kullanışlılar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

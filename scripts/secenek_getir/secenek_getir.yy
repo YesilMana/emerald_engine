@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"secenek_getir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"secenek_getir",
+  "parent":{
+    "name":"Kullanılmayacak",
+    "path":"folders/Script/Sistem/Kullanılmayacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

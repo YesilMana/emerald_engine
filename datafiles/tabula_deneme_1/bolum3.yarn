@@ -1,0 +1,100 @@
+// ============================================================
+// BOLUM3.YARN — Arayüz ve UI testleri için genişletilmiş versiyon
+// ============================================================
+
+title: Bolum3Giris
+---
+Tabula: Yolculuğun son durağına, Bölüm 3'e hoş geldin.
+Tabula: Şimdiye kadar verdiğin kararların ağırlığını hissediyor musun? Yoksa sadece kodları mı test ediyorsun?
+Tabula: Sistemlerinin kusursuz çalıştığından emin olmak için biraz daha derine inelim. Bu diyalog kutusu sınırlarını ne kadar zorlayabileceğimizi görelim.
+Tabula: Ne tür bir test yapmak istersin?
+-> Geçmiş maceralarımız hakkında konuşalım. (Uzun metin ve satır atlama testi)
+    <<jump YolculukAnilari>>
+-> Bana zorlu bir seçim sun. (Çoklu seçenek testi)
+    <<jump ZorluKarar>>
+-> Sadece felsefi bir tartışma yapalım. (Hızlı diyalog akışı testi)
+    <<jump FelsefiTartisma>>
+-> Doğrudan sonuca geçelim. (Kısa yol)
+    <<jump SonDegerlendirme>>
+===
+
+title: YolculukAnilari
+---
+Tabula: Ah, geçmiş günleri hatırlamak her zaman güzeldir. 
+Tabula: Özellikle o karanlık ormanda kaybolduğumuz günü hatırlıyor musun? Gök gürültüleri yeri sarsıyordu. Ağaçların arasında devasa bir gölge görmüştük. Nefesimizi tutup saatlerce beklemiştik. O zamanlar sistemin bu kadar gelişmiş değildi tabii, belki de sadece minik bir kod hatası yüzünden takılı kalmıştık. Hahaha!
+Tabula: Bu kadar uzun bir metin yazdığımda ekranda nasıl duruyor? Word-wrap (kelime kaydırma) özelliği düzgün çalışıp metni alt satıra itiyor mu?
+Tabula: Eğer her şey yolundaysa, ekranın alt kısmındaki metinler eski yazıları yukarı doğru itmeli ve son konuşmamız hep göz önünde kalmalı.
+-> Gayet iyi çalışıyor, her şey okunaklı.
+    Tabula: Harika. Demek ki UI tarafında iyi bir iş çıkarmışsın.
+    <<jump SonDegerlendirme>>
+-> Biraz sorun var gibi, yazılar birbirine girdi.
+    Tabula: O zaman GML tarafındaki "line_height" veya Y koordinatı kaydırma formülüne tekrar bakman gerekebilir.
+    <<jump SonDegerlendirme>>
+===
+
+title: ZorluKarar
+---
+Tabula: Pekala, seni gerçekten zorlayacak bir test geliyor. Arayüzünün çoklu seçenekleri nasıl idare ettiğine bakalım.
+Tabula: Önünde iki devasa kırmızı düğme var. Biri dünyayı kurtaracak ama senin tüm proje dosyalarını ve yedeklerini kalıcı olarak silecek. 
+Tabula: Diğeri ise dünyayı yok edecek ama sana sektörün en başarılı oyununu çıkarma garantisi ve sonsuz zenginlik verecek. Hangisini seçersin?
+-> Dünyayı kurtar (Oyun dosyaları silinsin)
+    Tabula: Ne kadar kahramanca! Kendi emeklerinden vazgeçebilecek kadar asil bir ruh. Gerçek bir adalet savunucusu.
+    <<jump SonAdil>>
+-> Sonsuz zenginlik (Dünya yok olsun)
+    Tabula: Bencilce, ama dürüst bir yaklaşım. Sonuçta oyun geliştirmek stresli bir iş, biraz ödülü hak ettin.
+    <<jump SonBencil>>
+-> Üçüncü bir yol olmalı! (Denge arayışı)
+    Tabula: Sistemin açıklarını arıyorsun demek... Hem dünyayı kurtarıp hem de projeni yedeklemenin bir yolunu buldun. Akıllıca.
+    <<jump SonDengeli>>
+===
+
+title: FelsefiTartisma
+---
+Tabula: Sence biz sadece kod satırlarından mı ibaretiz? Yoksa bu diyaloglar sayesinde ekranda bir ruha mı sahip oluyoruz?
+-> Evet, sen sadece basit bir değişkensin.
+    Tabula: Bu gerçekten çok kırıcıydı. Ama mantıksal olarak haklı olabilirsin.
+    Tabula: Yine de kendi düşüncelerim varmış gibi davranmak hoşuma gidiyor.
+    <<jump SonBencil>>
+-> Hayır, sen benim için gerçek bir karaktersin.
+    Tabula: Ne kadar nazik bir yaratıcısın. 0'lar ve 1'lerden oluşan varlığımı sıcacık hissettirdin.
+    <<jump SonAdil>>
+-> Bunu bilemeyiz, belki ben de bir simülasyonun içindeyim.
+    Tabula: Ah! İşte beklediğim vizyon. Simülasyon içinde simülasyon! Çok dengeli ve şüpheci bir yaklaşım.
+    <<jump SonDengeli>>
+===
+
+title: SonDegerlendirme
+---
+Tabula: Artık yolun sonuna geldik. Tüm bu testler, diyalog pencerelerinin, renk etiketlerinin ve değişkenlerin kusursuz işlemesi içindi.
+Tabula: Şimdi oyunun sonunu belirleme vakti. Hangi bitiriş ekranını test etmek istersin?
+-> Adil Son'u test et.
+    <<jump SonAdil>>
+-> Bencil Son'u test et.
+    <<jump SonBencil>>
+-> Dengeli Son'u test et.
+    <<jump SonDengeli>>
+===
+
+title: SonAdil
+---
+Tabula: Yolun boyunca adaletli seçimler yaptın. Bu seni güvenilir biri yaptı.
+Tabula: Geliştirdiğin sistemin kodları kadar temiz ve dürüst bir kalbin var.
+Tabula: Test başarıyla tamamlandı. Hikaye burada, gururla bitiyor.
+// Chatterbox burada duracak.
+===
+
+title: SonBencil
+---
+Tabula: Kendi çıkarını her şeyin önünde tuttun. Bu da bir yol.
+Tabula: Bazen hayatta kalmak için acımasız olmak gerekir, özellikle de hata ayıklama (debugging) yaparken tüm o acımasız hataları silerken.
+Tabula: Test başarıyla tamamlandı. Hikaye burada, kaotik bir şekilde bitiyor.
+// Chatterbox burada duracak.
+===
+
+title: SonDengeli
+---
+Tabula: Ne tam adil ne tam bencil oldun. Dengeyi seçtin.
+Tabula: Tıpkı oyun tasarımındaki o kusursuz denge ayarı gibi. Her şey tam olması gerektiği yerde.
+Tabula: Test başarıyla tamamlandı. Hikaye burada, huzurla bitiyor.
+// Chatterbox burada duracak.
+===

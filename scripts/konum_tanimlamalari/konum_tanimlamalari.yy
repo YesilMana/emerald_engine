@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"konum_tanimlamalari",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"konum_tanimlamalari",
+  "parent":{
+    "name":"Kullanılmayacak",
+    "path":"folders/Script/Sistem/Kullanılmayacak.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"chatterbox_scritpleri",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"chatterbox_scritpleri",
+  "parent":{
+    "name":"Scriptler",
+    "path":"folders/Script/Sistem/Scriptler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

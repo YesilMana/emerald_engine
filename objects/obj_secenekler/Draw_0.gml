@@ -1,0 +1,1 @@
+secenek_draw();

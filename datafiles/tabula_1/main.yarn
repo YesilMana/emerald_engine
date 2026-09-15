@@ -1,0 +1,24 @@
+title: Start
+position: 45,12
+---
+Selamlar küçük çocuk...
+Naber nasılsın?
+
+-> İyiyim amca sen?
+    <<jump iyi_oldugunu_soyle>>
+-> Pek iyi değilim [c_red][shake,6]Gülo'yu[/] istiyom
+    <<jump guloyu_istiyo>>
+
+===
+
+title: iyi_oldugunu_soyle
+position: 12,237
+---
+İyi olduğuna sevindim dostum
+===
+
+title: guloyu_istiyo
+position: 292,237
+---
+Sen bunu boşver, 150 gayme ve tavuk veririm sana Gülo karşılığında
+===

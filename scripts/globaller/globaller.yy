@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"globaller",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"globaller",
+  "parent":{
+    "name":"Globaller",
+    "path":"folders/Script/Sistem/Globaller.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

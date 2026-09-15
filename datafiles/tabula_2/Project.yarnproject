@@ -1,0 +1,24 @@
+{
+    "projectFileVersion": 4,
+    "sourceFiles": [
+        "**/*.yarn"
+    ],
+    "excludeFiles": [],
+    "baseLanguage": "en",
+    "projectName": "tabula_2",
+    "authorName": [
+        "yesilmana"
+    ],
+    "editorOptions": {
+        "yarnScriptEditor": {
+            "presenter": "try",
+            "characters": [
+                {
+                    "name": "narrator",
+                    "colour": "#6B7280",
+                    "displayName": "Narrator"
+                }
+            ]
+        }
+    }
+}

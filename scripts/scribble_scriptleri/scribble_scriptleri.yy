@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scribble_scriptleri",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scribble_scriptleri",
+  "parent":{
+    "name":"Scriptler",
+    "path":"folders/Script/Sistem/Scriptler.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

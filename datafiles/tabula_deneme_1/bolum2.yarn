@@ -1,0 +1,79 @@
+// ============================================================
+// BOLUM2.YARN — "bolum2" anahtarıyla saklanan BAĞIMSIZ bir
+// chatterbox instance'ı. main.yarn'dan dosyayaGec("bolum2", ...)
+// ile buraya geldik. Bu dosyanın kendi node'ları arasında normal
+// <<jump>> kullanabiliriz çünkü hepsi AYNI dosyada.
+//
+// global.adalet ve global.bencillik değerleri main.yarn'da
+// değişmiş olsa bile buradan da erişilebilir — çünkü bunlar
+// GameMaker'ın global değişkenleri, herhangi bir chatterbox
+// instance'ına özel değiller. Bu yüzden senkronizasyon derdi yok.
+// ============================================================
+
+title: Bolum2Giris
+---
+// adalet() ve bencillik() — parametresiz özel fonksiyonlarımız.
+// Doğrudan global.adalet / global.bencillik değerini okuyup
+// döndürüyorlar. <<if>> içinde normal bir karşılaştırma gibi
+// kullanılabiliyorlar çünkü sayı döndürüyorlar.
+    // main.yarn'da "yardım et" seçeneğini seçtiyseniz buraya düşersiniz
+    // (adalet en az 2 olduğu için).
+    Muhafiz: Seni tanıyorum, geçen gün o yabancıya yardım ettiğini duydum. Hoş geldin.
+    // "kendi işine bak" seçeneğini seçtiyseniz buraya düşersiniz.
+    <<secenek_sifirla()>>
+    // Seçenekler burada da aynı şekilde çalışıyor — girinti önemli.
+    -> Rüşvet teklif et #bencil
+        <<jump Rusvet>>
+
+    -> Onu ikna etmeye çalış #adil
+        <<veri_ekle("deneme_1", 1)>>
+        <<veri_ekle("deneme_2", 4)>>
+        <<jump Ikna>>
+    // Hiçbir koşul sağlanmadıysa (örn. ikisi de 0 kaldıysa) buraya düşer.
+    Muhafiz: Kimsin, ne istiyorsun?
+    <<jump Tanistirma>>
+===
+
+title: Rusvet
+---
+Muhafiz: Tamam, param param... Geç bakalım.
+<<jump TesadufiKarsilasma>>
+===
+
+title: Ikna
+---
+Muhafiz: Konuşman beni etkiledi. Geçebilirsin.
+<<jump TesadufiKarsilasma>>
+===
+
+title: Tanistirma
+---
+Sen: Sadece geçmek istiyorum.
+Muhafiz: Tamam, geç.
+<<jump TesadufiKarsilasma>>
+===
+
+title: KopruSerbest
+---
+Tabula: Köprüyü sorunsuzca geçtin.
+<<jump TesadufiKarsilasma>>
+===
+
+title: TesadufiKarsilasma
+---
+Tabula: Köprünün diğer tarafında birkaç gezgin var. Kaderin seni birine yaklaştırıyor.
+
+// agirlikliSecim() parametre almıyor çünkü doğrudan global.adalet
+// ve global.bencillik'i kendi içinde okuyor. 0 veya 1 döndürüyor.
+// Örneğin adalet=6, bencillik=2 ise %75 ihtimalle 0 (adil gezgin)
+// dönecek şekilde ağırlıklandırılmış rastgelelik uyguluyor.
+
+Gezgin: Ne bakıyorsun öyle? Yoluna devam et.
+
+// Bu node'un SON satırı: üçüncü dosyaya (bolum3.yarn) geçiş.
+// Yukarıdaki <<if>>/<<else>> bloğu hangi dalı izlerse izlesin,
+// ikisi de sonunda buraya (endif'in dışına) düşer ve buradan
+// bolum3.yarn'a geçilir. Yani dallanma sadece METNİ değiştiriyor,
+// geçiş her koşulda aynı şekilde gerçekleşiyor.
+<<if dosyayaGec("bolum3", "Bolum3Giris") == 1>><<endif>>
+===

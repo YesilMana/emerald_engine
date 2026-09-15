@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sistem_kontrolleri",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sistem_kontrolleri",
+  "parent":{
+    "name":"Kullanışlılar",
+    "path":"folders/Script/Sistem/Kullanışlılar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"struct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"struct",
+  "parent":{
+    "name":"Struct",
+    "path":"folders/Script/Sistem/Struct.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

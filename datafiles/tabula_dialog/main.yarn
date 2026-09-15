@@ -1,0 +1,24 @@
+// Değişkenleri varsayılan değerleriyle tanımlıyoruz (Chatterbox güvenliği için)
+<<declare $bencillik = 0>>
+<<declare $adalet = 0>>
+
+title: Start
+---
+Tabula salıncağı arkadaşına vermedi. Ne yapacaksın?
+-> Onu koru
+    <<set $bencillik += 5>>
+    <<jump Park_Kavgasi_Kayirma_Sonuc>>
+-> Adaletli olmasını söyle
+    <<set $adalet += 5>>
+    <<jump Park_Kavgasi_Adalet_Sonuc>>
+===
+
+title: Park_Kavgasi_Kayirma_Sonuc
+---
+Tabula: "Zaten hepsi benim hakkım!" diyerek salıncağa daha hırsla sarıldı.
+===
+
+title: Park_Kavgasi_Adalet_Sonuc
+---
+Tabula istemeye istemeye salıncaktan indi ve sırasını diğer çocuğa verdi.
+===

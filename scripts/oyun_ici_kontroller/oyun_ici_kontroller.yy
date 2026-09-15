@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"oyun_ici_kontroller",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"oyun_ici_kontroller",
+  "parent":{
+    "name":"Kullanışlılar",
+    "path":"folders/Script/Sistem/Kullanışlılar.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

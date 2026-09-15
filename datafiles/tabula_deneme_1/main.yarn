@@ -1,0 +1,78 @@
+// ============================================================
+// MAIN.YARN — Bu dosya "main" anahtarıyla global.chatterbox_dosyalar
+// struct'ında saklanıyor (GML'deki string_replace(".yarn","") sayesinde
+// "main.yarn" dosya adından "main" anahtarı otomatik türetiliyor).
+// Oyun bu dosyadan başlıyor çünkü Create event'inde şu satır var:
+//     chatterbox = global.chatterbox_dosyalar[$ "main"];
+//     ChatterboxJump(chatterbox, "Start");
+// ============================================================
+
+// "title:" bir NODE (düğüm) başlatır. Node, tek bir sahne/konuşma
+// parçasıdır. ChatterboxJump() ve <<jump>> komutu, isimle bu
+// node'lara atlar. Node ismi (buradaki "Start") dosya içinde
+// benzersiz olmalı.
+title: Start
+---
+// "---" satırı, node başlığının bittiğini ve asıl içeriğin
+// başladığını belirtir. Her node "===" ile bitmek ZORUNDADIR.
+
+// Basit bir diyalog satırı şu formatta yazılır: "Karakter: metin"
+// Chatterbox bunu otomatik olarak konuşmacı ve söz olarak ayırabilir
+// (ChatterboxGetContentSpeaker / ChatterboxGetContentSpeech ile okunur).
+Tabula: Merhaba. Ben Tabula. Bir süredir seni izliyorum.
+Tabula: Bugün sana basit bir soru soracağım, ama cevabın seni tanımlayacak.
+Tabula: Yolda düşmüş bir yabancı var, yardım istiyor. Yanında az miktarda erzağın var.
+<<secenek_sifirla()>>
+<<secenek_data(0, "kirmizi")>>
+<<secenek_data(1, "mavi")>>
+<<secenek_data(3, "yesil")>>
+-> Elindeki erzağı paylaş ve yardım et, sen iyi bir insan olabilir misin yavru çocuğum? #adil
+    Tabula: İlginç. Kendi ihtiyacını göz ardı ettin.
+    <<jump YabanciSonrasi>>
+
+-> Yoluna devam et, kendi işine bak #bencil
+    Tabula: Anlaşılan öncelik sende.
+    <<jump YabanciSonrasi>>
+
+-> Mallik yadsfsdfp ve aşağı atlar
+    <<jump YabanciSonrasi>>>
+    
+-> Mallik dfsgsdfyap ve aşağı atlar
+    <<jump YabanciSonrasi>>>
+
+-> Mallik gdfgfdyap ve aşağı atlar
+    <<jump YabanciSonrasi>>>
+
+-> Mallik yapsgdfdfg ve aşağı atlar
+    <<jump YabanciSonrasi>>>
+
+-> Mallik yap ve aşadsfğı atlar
+    <<jump YabanciSonrasi>>>
+
+-> Mallik yap ve aşağıfds atlar
+    <<jump YabanciSonrasi>>>
+===
+
+title: YabanciSonrasi
+---
+Tabula: Devam edelim. Az ileride bir köprü var ve başında bir muhafız duruyor.
+
+// Şimdi ilginç kısım: FARKLI BİR DOSYAYA geçiş yapacağız.
+// Chatterbox'ın kendi <<jump>> komutu SADECE aynı dosya içinde
+// çalışıyor (bunu birlikte test ederek keşfettik). Bu yüzden
+// GML'de tanımladığımız özel "dosyayaGec" fonksiyonunu kullanıyoruz.
+//
+// dosyayaGec(_dosya_adi, _node_adi) şunu yapıyor:
+//   1) global.chatterbox_dosyalar["bolum2"] struct'ından o dosyanın
+//      chatterbox instance'ını buluyor
+//   2) obj_yarn_yukleme'nin "chatterbox" değişkenini o instance'a
+//      çeviriyor (artık Step event'i o dosyayı kontrol ediyor)
+//   3) O yeni instance'ı hemen "Bolum2Giris" node'una jump'lıyor
+//
+// ÇOK ÖNEMLİ KURAL: Bu çağrı, bu node'daki EN SON satır olmalı!
+// Çünkü bu satırdan sonra bu dosyanın (main.yarn) VM'i hâlâ
+// çalışmaya devam edebilir — eğer altına başka satır yazarsak,
+// o satırlar da (yanlışlıkla) işlenmeye çalışılabilir. Bu node
+// burada bittiği (=== ile kapandığı) için sorun yok.
+<<if dosyayaGec("bolum2", "Bolum2Giris") == 1>><<endif>>
+===
