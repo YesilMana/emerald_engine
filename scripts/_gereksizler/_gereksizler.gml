@@ -132,7 +132,7 @@ function konusma_baslat(numara, z_tusu_ile_mi = false, gereken_global_numarasi =
 }
 
 function konusma_sil(numara = undefined) {
-	var obje_id = global.en_yakin_obje;
+	var obje_id = obj_konusma_temel;
 	with (obje_id) {
 		instance_destroy();
 	}
@@ -373,8 +373,32 @@ function kamera_hizi(hiz_1_10_arasi) {
 }
 
 function ekrani_doldur(string_, _x, _y) {
-	var yazi = instance_create_depth(_x, _y, -9999, obj_ekran_titreyen_yazi);
-	yazi.yazi = string_;
-	yazi._x = _x;
-	yazi._y = _y;
+	var yazid = instance_create_depth(_x, _y, -9999, obj_ekran_titreyen_yazi);
+	yazid.yazi = string_;
+	yazid._x = _x;
+	yazid._y = _y;
+}
+
+
+function ekrana_ciz(sprite_ismi, ani_cizim_indexim = 0, ozel_istek_boyut = noone) {
+	if ozel_istek_boyut == noone {
+		ozel_istek_boyut = 0.54;
+		if global.android && !global.tablet_modu || (!global.android && global.klavye_kontrolleri && !global.tablet_modu) ozel_istek_boyut = 0.44;
+	}
+	global.ani_cizim_sprite = sprite_ismi;
+	global.ani_cizim_boyut = ozel_istek_boyut;
+	global.ani_cizim_aktif = true;
+	global.ani_cizim_index = ani_cizim_indexim;
+}
+
+function ekran_ciz_draw() {
+	if global.ani_cizim_aktif {
+			draw_sprite_ext(global.ani_cizim_sprite, global.ani_cizim_index, display_get_gui_width() / 2, display_get_gui_height() / 2, global.ani_cizim_boyut, global.ani_cizim_boyut, 0, c_white, 1);
+	}
+	global.ani_cizim_aktif = false;
+}
+
+function z_tus_draw_gui() {
+	if !instance_exists(obj_camera_genel) || !instance_exists(obj_z_tus) exit;
+	draw_sprite_ext(obj_z_tus.sprite_index, obj_z_tus.image_index, display_get_gui_width() + obj_z_tus._x, display_get_gui_height() + obj_z_tus._y, obj_z_tus.image_xscale, obj_z_tus.image_yscale, 0, global.gui_renk, obj_z_tus.opaklik);
 }

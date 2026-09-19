@@ -213,4 +213,8 @@ global.ekran_yazisi_opaklik = 0;
 	global.gecmis_x = [];
 	global.gecmis_y = [];
 	global.anlik_konusan_kisi = global.cikolata;
+	global.ani_cizim_aktif = false;
+	global.ani_cizim_sprite = noone;
+	global.ani_cizim_boyut = 0.54;
+	global.ani_cizim_index = 0;
 }
