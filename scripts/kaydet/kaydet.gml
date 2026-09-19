@@ -66,7 +66,7 @@ function konum_ve_oda_kaydet() {
 		global.karakter_bilgileri[? "konum_y"] = global.cikolata.y;	
 		global.karakter_bilgileri[? "oda_isim"] = room_get_name(room);
 		
-		var yon = "sag";
+		var yon = "on";
 		if global.cikolata.sprite_index == global.cikolata.karakter_animasyon.Yan && global.cikolata.image_xscale > 0 {
 			yon = "sag";
 		}
@@ -82,7 +82,6 @@ function konum_ve_oda_kaydet() {
 		global.karakter_bilgileri[? "yon"] = yon;	
 	}
 }
-
 
 function havayi_kaydet() {
 	global.hikaye_kontrolleri_11 = global.hava_durumu;

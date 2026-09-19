@@ -46,8 +46,8 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
 
     // --- KONUŞMA DÖNGÜSÜ ---
     if (index >= 1) {
-		konusana_donme();
 		kamera_konusana_kilitlenme();
+		konusana_donme();
         global.konusma_basladi = true;
         konusma_sirasinda_olacaklar(konusma_id);
         
@@ -73,9 +73,9 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
 			var konusma_baslangic_x, konusma_baslangic_y, tolerans_1;
 
 			if (global.android && !global.tablet_modu) || (!global.android && global.klavye_kontrolleri && !global.tablet_modu) {
-			    konusma_baslangic_x = 40;
+			    konusma_baslangic_x = 70;
 			    konusma_baslangic_y = 116;
-			    tolerans_1 = 50;
+			    tolerans_1 = 90;
 			} else {
 			    konusma_baslangic_x = 45;
 			    if reels konusma_baslangic_x = 145;
@@ -108,14 +108,6 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
 
                 // İsim
                 draw_set_color(global.konusma_rengi);
-				if diyenler == "AA" {
-					if global.hikaye_kontrolleri_150 == obj_npc_akonit {
-						diyenler = "Akonit";	
-					}
-					if global.hikaye_kontrolleri_150 == obj_npc_sati {
-						diyenler = "Petunya";	
-					}
-				}
                 draw_text_transformed(konusma_baslangic_x + 10, konusma_baslangic_y - 15, diyenler, 0.25, 0.25, 0);
             }
 
@@ -156,6 +148,7 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
 				oyuncu_bekleme -= 1;
                 var yazi_boyutu = 0.25; 
 	            if (global.konusma_gorunurluk) {
+					draw_set_colour(c_white);
 				    var secenek_dizisi = global.konusma_secenek[konusma_id][index];
 				    var yazi_olcegi_secenek = yazi_boyutu - 0.025;
 
@@ -181,7 +174,7 @@ function konusma_tetikleme(konusma_id, basla = false, donecegi_obje = undefined)
 				}
                 global.maksimum_secenek = array_length(global.konusma_secenek[konusma_id][index]) - 1;
 				//if global.konusma_secenek[konusma_id][index][3] == "" global.maksimum_secenek = 2;
-				
+				  draw_set_color(global.konusma_rengi);
                 // Seçenek Kontrolleri
                 if (!global.android) {
                     if (global.yukari_tiklandi && global.yapilmis_secim > 1) global.yapilmis_secim -= 1;    

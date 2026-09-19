@@ -9,7 +9,16 @@ function sira_sifirlama() {
 	global.sira[1] = 0;
 	global.sira[2] = 0;
 	global.sira[3] = 0;
-	global.sira[4] = 0;	
+	global.sira[4] = 0;
+	global.sira[5] = 0;	
+	global.sira[6] = 0;	
+	global.sira[7] = 0;	
+	global.sira[8] = 0;	
+	global.sira[9] = 0;	
+	global.sira[10] = 0;	
+	global.sira[11] = 0;	
+	global.sira[12] = 0;	
+
 }
 
 function npc_oda_cikma() {
@@ -42,7 +51,7 @@ function npc_konum_kaydetme() {
             ds_map_add(temp_map, "npc_konum_x", x);
             ds_map_add(temp_map, "npc_konum_y", y);
 			
-			var yon = "sag";
+			var yon = "on";
 			if sprite_index == karakter_animasyon.Yan && image_xscale > 0 {
 				yon = "sag";
 			}

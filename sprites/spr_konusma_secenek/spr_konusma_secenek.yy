@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":8,
   "bbox_left":0,
-  "bbox_right":10,
+  "bbox_right":207,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a3ef21af-b775-49dc-9f29-556bc4d1a4aa","name":"a3ef21af-b775-49dc-9f29-556bc4d1a4aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b524e6e7-045e-4cd1-a0f2-4673e0f1db28","name":"b524e6e7-045e-4cd1-a0f2-4673e0f1db28","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":9,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e47c9796-bd3a-4706-b86f-bbff1145e9cb","blendMode":0,"displayName":"default","isLocked":false,"name":"e47c9796-bd3a-4706-b86f-bbff1145e9cb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ffefdce2-57c4-44e8-9c91-9de3e78ae1ca","blendMode":0,"displayName":"default","isLocked":false,"name":"ffefdce2-57c4-44e8-9c91-9de3e78ae1ca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_konusma_secenek",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3ef21af-b775-49dc-9f29-556bc4d1a4aa","path":"sprites/spr_konusma_secenek/spr_konusma_secenek.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"974dc362-d988-4981-ae04-bed5f72d1681","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b524e6e7-045e-4cd1-a0f2-4673e0f1db28","path":"sprites/spr_konusma_secenek/spr_konusma_secenek.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4bd85f44-95a2-443b-99e8-ef18cb06e204","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":86,
+  "width":235,
 }

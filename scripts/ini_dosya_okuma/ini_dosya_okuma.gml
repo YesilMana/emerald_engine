@@ -6,7 +6,7 @@ function ini_dosya_okuma(){
 
 	//Senin kullanacağın alan =======================================================
 	//an = 1; //Oyunu mobil modda denemek istersen an = 1; yap
-	global.sifirlama_sayisi = 36; //Eğer oyunu sıfırlamak istersen 1 arttır
+	global.sifirlama_sayisi = 37; //Eğer oyunu sıfırlamak istersen 1 arttır
 	
 	//Senin kullanacağın alan =======================================================
 	
